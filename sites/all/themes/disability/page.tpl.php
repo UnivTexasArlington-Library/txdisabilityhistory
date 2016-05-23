@@ -3,10 +3,10 @@
   <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4" id="logo">
     <div class="hidden-print"> 
       <a href="http://www.uta.edu/uta/">
-        <img alt="University of Texas at Arlington"  id="uta_logo" src="/disability/sites/default/files/UTA-LOGO_GREEN.png" />
+        <img alt="University of Texas at Arlington"  id="uta_logo" src="/txdisabilityhistory/sites/default/files/UTA-LOGO_GREEN.png" />
       </a> 
       <a href="/">
-        <img alt="UTA Libraries" id="lib_logo" src="/disability/sites/default/files/UTA-Libraries_green.png"  />
+        <img alt="UTA Libraries" id="lib_logo" src="/txdisabilityhistory/sites/default/files/UTA-Libraries_green.png"  />
       </a>
     </div>
   </div>
