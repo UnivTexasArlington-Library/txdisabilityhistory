@@ -7263,15 +7263,28 @@ hr {
   }
 }
 /* BASIC PAGE */
+.indent {
+  margin-left: 2.5em;
+}
+/* used on collection & person taxonomy term page */
 .pane-page-title h2 {
   margin-left: 1.15em;
 }
 #contact-site-form,
-#page-body {
+#page-body,
+#biography,
+#about-collection {
   margin-left: 12%;
   margin-right: 29%;
 }
-#page-body p {
+#contact-site-form p,
+#page-body p,
+#biography p,
+#about-collection p,
+#contact-site-form li,
+#page-body li,
+#biography li,
+#about-collection li {
   font-size: 1.4em;
 }
 /* FOOTER */
