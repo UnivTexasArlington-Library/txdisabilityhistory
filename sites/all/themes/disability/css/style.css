@@ -7093,7 +7093,7 @@ h4 {
   /* ~36px */
   line-height: 1em;
   /* ~36.4px */
-  padding-left: 0;
+  padding: 7px 5px 0 0;
 }
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:hover {
@@ -7148,8 +7148,9 @@ h4 {
   height: 82px;
   width: 82px;
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   #backtotop {
+    background: transparent url("/txdisabilityhistory/sites/default/files/back-to-top_2.png") no-repeat scroll center center;
     height: 2em;
     width: 2em;
   }
