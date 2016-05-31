@@ -7008,6 +7008,11 @@ h4 {
   padding-bottom: 2.1em;
   padding-left: 3.5em;
 }
+@media (max-width: 991px) {
+  .logo-wrapper-inside {
+    padding-left: 0.5em;
+  }
+}
 @media (max-width: 767px) {
   .logo-wrapper-inside {
     padding-bottom: 0;
@@ -7062,6 +7067,11 @@ h4 {
 }
 .navbar {
   margin-bottom: 0;
+}
+@media (max-width: 991px) {
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: 0;
+  }
 }
 .region-navigation .form-control {
   border-color: #26635e;

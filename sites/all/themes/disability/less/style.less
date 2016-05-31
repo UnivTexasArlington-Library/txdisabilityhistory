@@ -112,6 +112,9 @@ h4 {
 .logo-wrapper-inside{
 	padding-bottom:2.1em;
 	padding-left: 3.5em;
+	@media (max-width: @screen-sm-max) {
+		padding-left: 0.5em;
+	}
 	@media (max-width: @screen-xs-max) {
 		padding-bottom: 0;
 	}
@@ -159,6 +162,11 @@ h4 {
 
 .navbar {
 	margin-bottom: 0;
+	> .container-fluid .navbar-brand {
+		@media (max-width: @screen-sm-max) {
+			margin-left: 0;
+		}
+	}
 }
 .region-navigation {
 	.form-control {
