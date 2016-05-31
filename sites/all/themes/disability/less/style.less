@@ -325,7 +325,15 @@ h4 {
 hr {
 	border-top-color: @brand-primary;
 }
-
+.pager li > a, .pager li > span {
+	float:right;
+	border-radius:4px;
+	background-color: @font-teal;
+	color:#FFF;
+	&:hover, &:focus {
+		color:@brand-primary;
+	}
+}
 /* COLLECTION PAGE */
 .panels-flexible-collections_layout {
 	margin-bottom:2.15em; /* ~30px */

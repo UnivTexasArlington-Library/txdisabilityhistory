@@ -7243,6 +7243,19 @@ h4 {
 hr {
   border-top-color: #26635e;
 }
+.pager li > a,
+.pager li > span {
+  float: right;
+  border-radius: 4px;
+  background-color: #3b7c76;
+  color: #FFF;
+}
+.pager li > a:hover,
+.pager li > span:hover,
+.pager li > a:focus,
+.pager li > span:focus {
+  color: #26635e;
+}
 /* COLLECTION PAGE */
 .panels-flexible-collections_layout {
   margin-bottom: 2.15em;
