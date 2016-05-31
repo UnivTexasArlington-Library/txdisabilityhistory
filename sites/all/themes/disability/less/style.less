@@ -200,7 +200,7 @@ h4 {
 	float:left;
 	> ul > li > a {
 		border:1px solid @brand-primary;
-		border-radius: 0.71em; /* ~10px */
+		border-radius: @border-radius-base;
 		padding:6px 12px;
 		box-shadow: inset 1 1px 1px rgba(0,0,0,0.075);
 		background-color:#fff;
@@ -216,7 +216,7 @@ h4 {
 }
 .secondary {
 	> li.first > a {
-		border-bottom-left-radius: 0.71em; /* ~10px */
+		border-bottom-left-radius: @border-radius-base;
 	}
 	
 	> li > a {
@@ -231,7 +231,7 @@ h4 {
 		}
 	}
 	> li.last > a {
-		border-bottom-right-radius: 0.71em; /* ~10px */
+		border-bottom-right-radius: @border-radius-base;
 		border-right-width: 0;
 	}
 }
@@ -327,7 +327,7 @@ hr {
 }
 .pager li > a, .pager li > span {
 	float:right;
-	border-radius:4px;
+	border-radius:@border-radius-base;
 	background-color: @font-teal;
 	color:#FFF;
 	&:hover, &:focus {
