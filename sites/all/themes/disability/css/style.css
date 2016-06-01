@@ -7008,9 +7008,9 @@ h4 {
   padding-bottom: 2.1em;
   padding-left: 3.5em;
 }
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
   .logo-wrapper-inside {
-    padding-left: 0.5em;
+    padding-left: 1em;
   }
 }
 @media (max-width: 767px) {
@@ -7079,9 +7079,9 @@ h4 {
 .container-fluid > .navbar-header {
   margin-left: 3.5em;
 }
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
   .container-fluid > .navbar-header {
-    margin-left: 0;
+    margin-left: 1em;
   }
 }
 .container-fluid > .navbar-header h1 {
@@ -7172,7 +7172,7 @@ h4 {
   /* 35px */
   padding-left: 0;
 }
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
   .breadcrumb {
     padding: 0;
     margin-left: 0;
@@ -7216,6 +7216,13 @@ h4 {
 #views-exposed-form-topic-with-filter-panel-pane-3,
 #views-exposed-form-keyword-panel-pane-1 {
   margin-left: 2.5em;
+}
+@media (max-width: 1199px) {
+  #views-exposed-form-topic-with-filter-panel-pane-1,
+  #views-exposed-form-topic-with-filter-panel-pane-3,
+  #views-exposed-form-keyword-panel-pane-1 {
+    margin-left: 0;
+  }
 }
 .view-filters {
   padding-bottom: 2em;
@@ -7293,11 +7300,16 @@ hr {
 .indent {
   margin-left: 2.5em;
 }
+@media (max-width: 1199px) {
+  .indent {
+    margin-left: 0;
+  }
+}
 /* used on collection & person taxonomy term page */
 .pane-page-title h2 {
   margin-left: 1.15em;
 }
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
   .pane-page-title h2 {
     margin-left: 0;
   }
