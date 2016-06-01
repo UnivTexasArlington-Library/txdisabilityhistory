@@ -39,9 +39,17 @@ h4 {
 	border-right: 1px solid #FFF;
 	height: 2.15em; /* ~30px */
 	width:auto;
+	/* margin-left:3.5em; */
 	&:hover, 
 	&:focus {
 		background: rgba(23,24,24,0.18) none repeat scroll 0% 0%;
+	}
+	/*@media (max-width: @screen-sm-max) {
+		height:2em;
+		margin-left:1em;
+	} */
+	@media (max-width: @screen-xs-max) {
+		padding-right:0.35em; /* ~5px */
 	}
 }
 #lib_logo {
@@ -52,6 +60,9 @@ h4 {
 	&:focus {
 		background: rgba(23,24,24,0.18) none repeat scroll 0% 0%;
 	}
+	/*@media (max-width: @screen-sm-max) {
+		height: 2em; 
+	} */
 	@media (max-width: @screen-xs-max) {
 			margin-left: 0.35em; /* ~5px */
 			height:1em;
@@ -151,7 +162,11 @@ h4 {
 
 .navbar {
 	margin-bottom: 0;
-	
+	> .container-fluid .navbar-brand {
+	/*	@media (max-width: @screen-sm-max) {
+			margin-left: 0;
+		}
+	}*/
 }
 .region-navigation {
 	.form-control {
@@ -167,7 +182,7 @@ h4 {
 		margin: 0;
 	}
 }
-.logo img {
+.logo img{
 	margin-left: 3.571428571428571em;
 	padding-top:1em;
 	max-width: 400px;
@@ -243,6 +258,7 @@ h4 {
 .region-content {
 	margin-bottom:4em;
 }
+
 .breadcrumb {
 	text-transform: lowercase;
 	margin-left: 2.5em; /* 35px */
@@ -345,9 +361,26 @@ hr {
 }
 
 /* Node page */
+/*.field-name-field-item-thumbnail,
+.views-field-field-item-thumbnail {
+	@media (max-width: @screen-sm-max) {
+		margin-left:2em;
+	}*/
+}
 
+/*.field-name-field-transcription .field-type-text-long {
+	@media (max-width: @screen-sm-max) {
+		margin: 2em;
+	}
+}*/
 
 /* BASIC PAGE */
+.indent { 
+	margin-left:2.5em;
+	@media (max-width: @screen-md-max) {
+		margin-left:0;
+	}
+} /* used on collection & person taxonomy term page */
 .pane-page-title h2 {
 	margin-left:1.15em;
 	@media (max-width: @screen-md-max) {
@@ -364,13 +397,7 @@ hr {
 		font-size: 1.4em;
 	}
 }
-/* used on collection & person taxonomy term page */
-.indent { 
-	margin-left:2.5em;
-	@media (max-width: @screen-md-max) {
-		margin-left:0;
-	}
-} 
+
 /* FOOTER */
 footer{
 	background-color: @text-color;
