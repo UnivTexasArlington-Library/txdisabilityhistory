@@ -6903,6 +6903,11 @@ h2 {
 #page-title {
   margin-left: 1.15em;
 }
+@media (max-width: 991px) {
+  #page-title {
+    margin-left: 1em;
+  }
+}
 h3 {
   color: #26635e;
   font-size: 1.7em;
@@ -7084,6 +7089,11 @@ h4 {
     margin-left: 1em;
   }
 }
+@media (max-width: 991px) {
+  .container-fluid > .navbar-header {
+    margin-left: 0;
+  }
+}
 .container-fluid > .navbar-header h1 {
   margin: 0;
 }
@@ -7176,6 +7186,11 @@ h4 {
   .breadcrumb {
     padding: 0;
     margin-left: 0;
+  }
+}
+@media (max-width: 991px) {
+  .breadcrumb {
+    margin-left: 1em;
   }
 }
 .panels-flexible-row-front_page-1-inside {
@@ -7276,6 +7291,9 @@ hr {
 .pager li > span:focus {
   color: #26635e;
 }
+.caption {
+  padding: 0 1em 0 0;
+}
 /* COLLECTION PAGE */
 .panels-flexible-collections_layout {
   margin-bottom: 2.15em;
@@ -7283,18 +7301,6 @@ hr {
 }
 .panels-flexible-collections_layout h3 {
   margin-top: 0;
-}
-/* Node page */
-@media (max-width: 991px) {
-  .field-name-field-item-thumbnail,
-  .views-field-field-item-thumbnail {
-    margin-left: 2em;
-  }
-}
-@media (max-width: 991px) {
-  .field-name-field-transcription .field-type-text-long {
-    margin: 2em;
-  }
 }
 /* BASIC PAGE */
 .indent {
@@ -7314,21 +7320,20 @@ hr {
     margin-left: 0;
   }
 }
+@media (max-width: 991px) {
+  .pane-page-title h2 {
+    margin-left: 0.4em;
+  }
+}
 #contact-site-form,
-#page-body,
-#biography,
-#about-collection {
+#page-body {
   margin-left: 12%;
   margin-right: 29%;
 }
 #contact-site-form p,
 #page-body p,
-#biography p,
-#about-collection p,
 #contact-site-form li,
-#page-body li,
-#biography li,
-#about-collection li {
+#page-body li {
   font-size: 1.4em;
 }
 /* FOOTER */

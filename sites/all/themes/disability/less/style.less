@@ -17,6 +17,9 @@ h2 {
 }
 #page-title {
 	margin-left:1.15em;
+	@media (max-width: @screen-sm-max) {
+		margin-left: 1em;
+	}
 }
 h3 {
 	color:@brand-primary;
@@ -178,6 +181,9 @@ h4 {
 	@media (max-width: @screen-md-max) {
 		margin-left: 1em;
 	}
+	@media (max-width: @screen-sm-max) {
+		margin-left: 0;
+	}
 	h1 {
 		margin: 0;
 	}
@@ -190,7 +196,6 @@ h4 {
 #edit-actions {
 	margin-bottom: 0;
 }
-
 .navbar-default .navbar-brand {
 	color:@brand-primary;
 	text-transform: uppercase;
@@ -265,6 +270,9 @@ h4 {
 	@media (max-width: @screen-md-max) {
 		padding:0;
 		margin-left: 0;
+	}
+	@media (max-width: @screen-sm-max) {
+		margin-left: 1em;
 	}
 }
 .panels-flexible-row-front_page-1-inside {
@@ -351,25 +359,14 @@ hr {
 		color:@brand-primary;
 	}
 }
+.caption {
+	padding: 0 1em 0 0;
+}
 /* COLLECTION PAGE */
 .panels-flexible-collections_layout {
 	margin-bottom:2.15em; /* ~30px */
 	h3 {
 		margin-top: 0;
-	}
-}
-
-/* Node page */
-.field-name-field-item-thumbnail,
-.views-field-field-item-thumbnail {
-	@media (max-width: @screen-sm-max) {
-		margin-left:2em;
-	}
-}
-
-.field-name-field-transcription .field-type-text-long {
-	@media (max-width: @screen-sm-max) {
-		margin: 2em;
 	}
 }
 
@@ -385,11 +382,12 @@ hr {
 	@media (max-width: @screen-md-max) {
 		margin-left: 0;
 	}
+	@media (max-width: @screen-sm-max) {
+		margin-left: 0.4em;
+	}
 }
 #contact-site-form, 
-#page-body, 
-#biography, 
-#about-collection {
+#page-body {
 	margin-left: 12%;
 	margin-right: 29%;
 	p, li {
