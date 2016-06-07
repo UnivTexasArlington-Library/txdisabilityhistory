@@ -7091,7 +7091,7 @@ h4 {
 }
 @media (max-width: 991px) {
   .container-fluid > .navbar-header {
-    margin-left: 0;
+    margin-left: 0.5em;
   }
 }
 .container-fluid > .navbar-header h1 {
@@ -7326,14 +7326,17 @@ hr {
   }
 }
 #contact-site-form,
-#page-body {
+#page-body,
+#about-collection {
   margin-left: 12%;
   margin-right: 29%;
 }
 #contact-site-form p,
 #page-body p,
+#about-collection p,
 #contact-site-form li,
-#page-body li {
+#page-body li,
+#about-collection li {
   font-size: 1.4em;
 }
 /* FOOTER */
