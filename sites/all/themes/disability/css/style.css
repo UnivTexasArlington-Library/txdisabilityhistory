@@ -7133,6 +7133,24 @@ h4 {
   background-color: #fff;
   color: #3b7c76;
 }
+#block-views-exp-search-page {
+  display: inline-block;
+  background-color: #eeeeee;
+  border: solid 1px #555555;
+  border-radius: 4px;
+}
+#edit-search-api-multi-fulltext-wrapper {
+  padding-left: 0.5em;
+  padding-right: 0;
+}
+#edit-search-api-multi-fulltext {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+#edit-submit-search {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
 #block-search-form {
   float: left;
   margin: 0.5em;
