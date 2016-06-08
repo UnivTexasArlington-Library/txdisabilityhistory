@@ -7382,6 +7382,12 @@ footer a {
 .in-maintenance h1 {
   padding-left: 0;
 }
-.in-maintenance a {
+.in-maintenance h1 a {
+  color: #26635e;
+}
+.in-maintenance #page-title h1 {
+  margin-left: 0;
+}
+.in-maintenance #page-title h1 a {
   color: #f0ad4e;
 }
