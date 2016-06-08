@@ -1,4 +1,3 @@
-<a class="sr-only sr-only-focusable" href="#herocaption">Skip Navigation</a>
 <?php if (!empty($page['highlighted'])): ?>
   <div class="highlighted">
     <?php /*print render($page['highlighted']);  

@@ -1,4 +1,3 @@
-<a class="sr-only sr-only-focusable" href="#main-content">Skip to main content</a>
 <div class="row logo-wrapper-inside">
   <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4" id="logo">
     <div class="hidden-print"> 
