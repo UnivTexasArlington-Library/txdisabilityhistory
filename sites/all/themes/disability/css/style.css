@@ -7103,8 +7103,6 @@ h4 {
   color: #26635e;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 1em;
-  /* ~36px */
   line-height: 1em;
   /* ~36.4px */
   padding: 7px 5px 0 0;
@@ -7144,11 +7142,11 @@ h4 {
   position: fixed;
   right: -9999px;
 }
-#edit-search-api-multi-fulltext {
+#edit-search-api-multi-fulltext-wrapper #edit-search-api-multi-fulltext {
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
 }
-#edit-submit-search {
+#edit-search-api-multi-fulltext-wrapper #edit-submit-search {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
 }
