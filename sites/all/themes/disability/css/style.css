@@ -6994,10 +6994,7 @@ h4 {
   background-color: rgba(255, 255, 255, 0.8);
   border-color: transparent;
   margin-top: 0;
-}
-.region-uta-header img {
-  width: 100%;
-  height: auto;
+  padding-top: 1em;
 }
 .logo-wrapper,
 .logo-wrapper-inside {
@@ -7120,20 +7117,19 @@ h4 {
 #edit-actions {
   margin-bottom: 0;
 }
-/*
 #block-menu-menu-browse-by {
-	display:inline-block;
-	margin: 0.5em 3em 0.5em 0.5em; /* 7px */
-/*	> ul > li > a {
-		border:1px solid @brand-primary;
-		border-radius: @border-radius-base;
-		padding:6px 12px;
-		box-shadow: inset 1 1px 1px rgba(0,0,0,0.075);
-		background-color:#fff;
-		color: @font-teal;
-	}
+  /*	display:inline-block;
+	margin: 0.5em 3em 0.5em 0.5em; */
 }
-#block-views-exp-search-page {
+#block-menu-menu-browse-by > ul > li > a {
+  border: 1px solid #26635e;
+  border-radius: 4px;
+  padding: 6px 12px;
+  box-shadow: inset 1 1px 1px rgba(0, 0, 0, 0.075);
+  background-color: #fff;
+  color: #3b7c76;
+}
+/*#block-views-exp-search-page {
 	display:inline-block;
 }
 #edit-search-api-multi-fulltext-wrapper {
@@ -7150,8 +7146,7 @@ h4 {
 		border-bottom-left-radius: 0;
 		border-top-left-radius: 0;
 	}
-}
-*/
+} */
 .navbar-collapse.in {
   overflow-y: visible;
 }
