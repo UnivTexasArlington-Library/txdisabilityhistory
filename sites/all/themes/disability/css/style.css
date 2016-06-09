@@ -7118,8 +7118,7 @@ h4 {
   margin-bottom: 0;
 }
 #block-menu-menu-browse-by {
-  /*	display:inline-block;
-	margin: 0.5em 3em 0.5em 0.5em; */
+  display: inline-block;
 }
 #block-menu-menu-browse-by > ul > li > a {
   border: 1px solid #26635e;
@@ -7129,24 +7128,28 @@ h4 {
   background-color: #fff;
   color: #3b7c76;
 }
-/*#block-views-exp-search-page {
-	display:inline-block;
+#block-views-exp-search-page {
+  display: inline-block;
 }
 #edit-search-api-multi-fulltext-wrapper {
-	padding-left: 0.5em;
-	label {
-		position: fixed;
-		right: -9999px;
-	}
-	#edit-search-api-multi-fulltext {
-		border-bottom-right-radius: 0;
-		border-top-right-radius: 0;
-	}
-	#edit-submit-search {
-		border-bottom-left-radius: 0;
-		border-top-left-radius: 0;
-	}
-} */
+  padding-right: 0px;
+  padding-top: 0px;
+}
+#edit-search-api-multi-fulltext-wrapper label {
+  position: fixed;
+  right: -9999px;
+}
+#edit-search-api-multi-fulltext-wrapper #edit-search-api-multi-fulltext {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+#edit-search-api-multi-fulltext-wrapper #edit-submit-search {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+#views-exposded-form-search-page .views-exposed-widget .views-submit-button {
+  padding-top: 0;
+}
 .navbar-collapse.in {
   overflow-y: visible;
 }
