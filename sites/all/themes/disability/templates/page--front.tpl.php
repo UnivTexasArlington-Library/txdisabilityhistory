@@ -20,12 +20,12 @@
   <section class="row navbar-wrapper">
     <header id="navbar-front" role="banner" class="<?php print $navbar_classes; ?>">
 
-      <div class="navbar-header col-xs-12 col-sm-6 col-md-5 col-lg-4">
+      <div class="navbar-header col-xs-12 col-sm-6 col-md-5 col-lg-7">
         <?php if (!empty($site_name)): ?>
           <h1><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a></h1>
         <?php endif; ?>
       </div> <!-- end.navbar-header-->
-      <div class="search-browse col-xs-12 col-sm-5 col-md-6 col-lg-7">
+      <div class="search-browse col-xs-12 col-sm-5 col-md-6 col-lg-4">
         <!-- nav-mobile -->
         <?php if (!empty($primary_nav) || !empty($page['navigation'])): ?>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">

@@ -7023,11 +7023,15 @@ h4 {
     padding-bottom: 0;
   }
 }
-.region-highlighted #hero {
+#highlighted {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+#highlighted #hero {
   width: 100%;
   height: auto;
 }
-.region-highlighted #herocaption {
+#highlighted #herocaption {
   background-color: rgba(38, 99, 94, 0.9);
   color: #ffffff;
   position: absolute;
@@ -7044,12 +7048,12 @@ h4 {
   font-size: 1.2em;
   /* ~17px */
 }
-.region-highlighted #herocaption a {
+#highlighted #herocaption a {
   color: #fff;
   text-decoration: underline;
 }
 @media (max-width: 991px) {
-  .region-highlighted #herocaption {
+  #highlighted #herocaption {
     position: static;
     margin-right: 0;
     max-width: 100%;
@@ -7081,31 +7085,21 @@ h4 {
 .region-navigation .form-control {
   border-color: #26635e;
 }
-.container-fluid > .navbar-header {
-  margin-left: 3.5em;
+.navbar-header {
+  margin-left: 2.5em;
 }
 @media (max-width: 1199px) {
-  .container-fluid > .navbar-header {
+  .navbar-header {
     margin-left: 1em;
   }
 }
 @media (max-width: 991px) {
-  .container-fluid > .navbar-header {
+  .navbar-header {
     margin-left: 0.5em;
   }
 }
-.container-fluid > .navbar-header h1 {
+.navbar-header h1 {
   margin: 0;
-}
-.logo img {
-  margin-left: 3.571428571428571em;
-  padding-top: 1em;
-  max-width: 400px;
-}
-#edit-actions {
-  margin-bottom: 0;
-}
-.navbar-default .navbar-brand {
   color: #26635e;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -7115,15 +7109,22 @@ h4 {
   /* ~36.4px */
   padding: 7px 5px 0 0;
 }
-.navbar-default .navbar-brand:focus,
-.navbar-default .navbar-brand:hover {
+.navbar-header h1:focus,
+.navbar-header h1:hover {
   color: inherit;
+}
+.logo img {
+  margin-left: 3.571428571428571em;
+  padding-top: 1em;
+  max-width: 400px;
+}
+#edit-actions {
+  margin-bottom: 0;
 }
 #block-menu-menu-browse-by {
   display: inline-block;
   margin: 0.5em 3em 0.5em 0.5em;
   /* 7px */
-  float: left;
 }
 #block-menu-menu-browse-by > ul > li > a {
   border: 1px solid #26635e;
@@ -7135,11 +7136,9 @@ h4 {
 }
 #block-views-exp-search-page {
   display: inline-block;
-  background-color: rgba(79, 167, 158, 0.2);
 }
 #edit-search-api-multi-fulltext-wrapper {
   padding-left: 0.5em;
-  padding-right: 0;
 }
 #edit-search-api-multi-fulltext-wrapper label {
   position: fixed;
@@ -7152,11 +7151,6 @@ h4 {
 #edit-submit-search {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
-}
-#block-search-form {
-  float: left;
-  margin: 0.5em;
-  max-width: 200px;
 }
 .navbar-collapse.in {
   overflow-y: visible;

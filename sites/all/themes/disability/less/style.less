@@ -122,7 +122,9 @@ h4 {
 		padding-bottom: 0;
 	}
 }
-.region-highlighted {
+#highlighted {
+	margin-right: -15px;
+	margin-left: -15px;
 	#hero {
 		width: 100%;
 		height:auto;
@@ -176,8 +178,8 @@ h4 {
 		border-color: @brand-primary;
 	}
 }
-.container-fluid > .navbar-header {
-	margin-left: 3.5em;
+.navbar-header {
+	margin-left: 2.5em;
 	@media (max-width: @screen-md-max) {
 		margin-left: 1em;
 	}
@@ -186,6 +188,15 @@ h4 {
 	}
 	h1 {
 		margin: 0;
+		color:@brand-primary;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-size:1em; /* ~36px */
+		line-height: 1em; /* ~36.4px */
+		padding: 7px 5px 0 0;
+		&:focus, &:hover {
+			color:inherit;
+		}
 	}
 }
 .logo img{
@@ -196,21 +207,9 @@ h4 {
 #edit-actions {
 	margin-bottom: 0;
 }
-.navbar-default .navbar-brand {
-	color:@brand-primary;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-size:1em; /* ~36px */
-	line-height: 1em; /* ~36.4px */
-	padding: 7px 5px 0 0;
-	&:focus, &:hover {
-		color:inherit;
-	}
-}
 #block-menu-menu-browse-by {
 	display:inline-block;
 	margin: 0.5em 3em 0.5em 0.5em; /* 7px */
-	float:left;
 	> ul > li > a {
 		border:1px solid @brand-primary;
 		border-radius: @border-radius-base;
@@ -222,12 +221,9 @@ h4 {
 }
 #block-views-exp-search-page {
 	display:inline-block;
-	background-color: rgba(79, 167, 158,0.2);
-
 }
 #edit-search-api-multi-fulltext-wrapper {
 	padding-left: 0.5em;
-	padding-right: 0;
 	label {
 		position: fixed;
 		right: -9999px;
@@ -240,11 +236,6 @@ h4 {
 #edit-submit-search {
 	border-bottom-left-radius: 0;
 	border-top-left-radius: 0;
-}
-#block-search-form {
-	float:left;
-	margin: 0.5em;
-	max-width: 200px;
 }
 .navbar-collapse.in {
 	overflow-y: visible;
