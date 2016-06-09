@@ -7216,6 +7216,9 @@ h4 {
 .panels-flexible-row-front_page-1-inside {
   margin: 2em 0;
 }
+.pane-content {
+  margin-bottom: 0.75em;
+}
 .row-field {
   margin-bottom: 0.35em;
   /* ~5px */
