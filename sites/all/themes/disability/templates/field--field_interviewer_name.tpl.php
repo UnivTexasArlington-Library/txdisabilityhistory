@@ -1,4 +1,4 @@
-<div class="pane-content <?php print $classes; ?>"<?php print $attributes; ?>>
+<div class="<?php print $classes; ?>"<?php print $attributes; ?>>
   <?php if (!$label_hidden): ?>
     <div class="field-label col-xs-12 col-sm-4"<?php print $title_attributes; ?>><?php print $label ?>:&nbsp;</div>
   
