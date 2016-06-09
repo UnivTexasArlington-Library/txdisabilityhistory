@@ -100,7 +100,17 @@ h4 {
 	width:100%;
 	height: auto;
 }
-
+.logo-wrapper,
+.logo-wrapper-inside {
+	padding-bottom:1.5em;
+	padding-left: 1.5em;
+	@media (max-width: @screen-md-max) {
+		padding-left: 1em;
+	}
+	@media (max-width: @screen-xs-max) {
+		padding-bottom: 0;
+	}
+}
 
 .logo-wrapper {
 	position: absolute;
@@ -109,18 +119,7 @@ h4 {
 	left: 0px;
 	z-index: 20;
 	background-color: rgba(17, 17, 17, 0.5);
-	padding-bottom:2.1em;
-	padding-left: 3.5em;
-}
-.logo-wrapper-inside{
-	padding-bottom:2.1em;
-	padding-left: 3.5em;
-	@media (max-width: @screen-md-max) {
-		padding-left: 1em;
-	}
-	@media (max-width: @screen-xs-max) {
-		padding-bottom: 0;
-	}
+
 }
 #highlighted {
 	margin-right: -15px;
@@ -179,7 +178,7 @@ h4 {
 	}
 }
 .navbar-header {
-	margin-left: 2.5em;
+	margin-left: 1.5em;
 	@media (max-width: @screen-md-max) {
 		margin-left: 1em;
 	}
@@ -206,10 +205,11 @@ h4 {
 #edit-actions {
 	margin-bottom: 0;
 }
+/*
 #block-menu-menu-browse-by {
 	display:inline-block;
 	margin: 0.5em 3em 0.5em 0.5em; /* 7px */
-	> ul > li > a {
+/*	> ul > li > a {
 		border:1px solid @brand-primary;
 		border-radius: @border-radius-base;
 		padding:6px 12px;
@@ -236,7 +236,7 @@ h4 {
 		border-top-left-radius: 0;
 	}
 }
-
+*/
 .navbar-collapse.in {
 	overflow-y: visible;
 }

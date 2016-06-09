@@ -46,7 +46,7 @@
               <?php endif; ?>
               
               <?php if (!empty($page['navigation'])): ?>
-              <div class="pull-right">
+              <div>
                 <?php print render($page['navigation']); ?>
               </div>
               <?php endif; ?>
