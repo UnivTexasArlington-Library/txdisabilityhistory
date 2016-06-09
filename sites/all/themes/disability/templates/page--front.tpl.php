@@ -67,14 +67,14 @@
       <a href="about">More about this collection</a>
     </p>
   </section>
-  <?php if (!empty($page['logo'])): ?>
+  <?php if (!empty($page['news'])): ?>
   <section id="news-events">
     <div class="row">
       <div class="col-md-1 col-md-offset-1 col-sm-10 col-sm-offset-1">
         <h3>NEWS &amp; EVENTS</h3>
       </div>
       <div class="col-md-9 col-md-offset--0 col-sm-10 col-sm-offset-1">        
-      <?php print render($page['logo']); ?> 
+      <?php print render($page['news']); ?> 
       </div>
     </div>
   </section>
