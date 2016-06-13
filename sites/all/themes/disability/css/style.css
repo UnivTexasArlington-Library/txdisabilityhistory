@@ -6934,9 +6934,6 @@ h4 {
 #sitename {
   margin-left: 3%;
 }
-#logo {
-  margin-top: 2em;
-}
 #sitename h1 {
   color: #26635E;
   text-transform: uppercase;
@@ -6954,80 +6951,53 @@ h4 {
   margin-right: 3%
 	;
 }
+#logo {
+  margin-top: 2em;
+}
 #uta_logo {
   padding-right: 1em;
   border-right: 1px solid #FFF;
   height: 2.15em;
   /* ~30px */
   width: auto;
-  /* margin-left:3.5em; */
 }
 #uta_logo:hover,
 #uta_logo:focus {
   background: rgba(23, 24, 24, 0.18) none repeat scroll 0% 0%;
 }
-@media (max-width: 991px) {
-  #uta_logo {
-    height: 2em;
-    margin-left: 1em;
-  }
-}
-@media (max-width: 767px) {
-  #uta_logo {
-    padding-right: 0.35em;
-    /* ~5px */
-  }
-}
 #lib_logo {
-  margin-left: 0.35em;
-  /* ~5px */
+  /*margin-left: 0.35em;  ~5px */
   height: 2.15em;
   /* 28px */
-  padding-top: 0.35em;
-  /* ~5px */
+  /*padding-top:0.35em;  */
 }
 #lib_logo:hover,
 #lib_logo:focus {
   background: rgba(23, 24, 24, 0.18) none repeat scroll 0% 0%;
 }
-@media (max-width: 991px) {
-  #lib_logo {
-    height: 2em;
-  }
-}
-@media (max-width: 767px) {
-  #lib_logo {
-    margin-left: 0.35em;
-    /* ~5px */
-    height: 1em;
-  }
-}
 /* FRONT PAGE */
-.navbar-wrapper {
-  margin-top: 5.714285714285714em;
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 20;
-}
-@media (max-width: 767px) {
-  .navbar-wrapper {
-    margin-top: 3.571428571428571em;
-    /* ~50px */
-  }
+/*.navbar-wrapper {
+	margin-top:5.714285714285714em;
+	position: absolute;
+	top:0;
+	right: 0;
+	left:0;
+	z-index: 20;
+	@media (max-width: @screen-xs-max) {
+		margin-top: 3.571428571428571em; 
+	}
 }
 #navbar {
-  margin-top: 0;
-  background-color: transparent;
-  border-color: transparent;
+	margin-top: 0;
+	background-color: transparent;
+	border-color: transparent;
 }
 #navbar-front {
-  background-color: rgba(255, 255, 255, 0.8);
-  border-color: transparent;
-  margin-top: 0;
-  padding-top: 1em;
-}
+	background-color: rgba(255,255,255,0.8);
+	border-color: transparent;
+	margin-top: 0;
+	padding-top: 1em;
+} */
 #highlighted {
   margin-right: -15px;
   margin-left: -15px;
@@ -7064,12 +7034,14 @@ h4 {
     width: 100%;
   }
 }
-.region-navigation .form-control {
-  border-color: #26635e;
-}
-#edit-actions {
-  margin-bottom: 0;
-}
+/*.region-navigation {
+	.form-control {
+		border-color: @brand-primary;
+	}
+} */
+/* #edit-actions {
+	margin-bottom: 0;
+} */
 #block-menu-menu-browse-by {
   display: inline-block;
   float: right;
@@ -7085,28 +7057,28 @@ h4 {
 #block-views-exp-search-page {
   display: inline-block;
 }
-#edit-search-api-multi-fulltext-wrapper {
-  padding-right: 0px;
-  padding-top: 0px;
-}
-#edit-search-api-multi-fulltext-wrapper label {
-  position: fixed;
-  right: -9999px;
+/*#edit-search-api-multi-fulltext-wrapper {
+	padding-right: 0px;
+	padding-top: 0px;
+	label {
+		position: fixed;
+		right: -9999px;
+	}
 }
 .views-exposed-form .views-exposed-widget {
-  padding: 0;
-}
+	padding:0;
+} 
 #edit-search-api-multi-fulltext {
-  border-bottom-right-radius: 0;
-  border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
 }
 #edit-submit-search {
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 0;
-}
-.navbar-collapse.in {
-  overflow-y: visible;
-}
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+}*/
+/*.navbar-collapse.in {
+	overflow-y: visible;
+} */
 .secondary > li.first > a {
   border-bottom-left-radius: 4px;
 }
@@ -7130,13 +7102,13 @@ h4 {
 #news-events {
   margin: 2em 0;
 }
-#page-title {
-  margin-left: 3%;
+/*#page-title {
+	margin-left: 3%;
 }
 .page-header {
-  margin-left: 3%;
-  border-bottom: none;
-}
+	margin-left: 3%;
+	border-bottom: none;
+}*/
 #backtotop {
   background: transparent url("/txdisabilityhistory/sites/default/files/back-to-top.png") no-repeat scroll center center;
   height: 82px;
@@ -7152,25 +7124,21 @@ h4 {
 .region-content {
   margin-bottom: 4em;
 }
-.breadcrumb {
-  text-transform: lowercase;
-  margin-left: 1.25em;
-  padding-left: 0;
-}
-@media (max-width: 1199px) {
-  .breadcrumb {
-    padding: 0;
-    margin-left: 0;
-  }
-}
-@media (max-width: 991px) {
-  .breadcrumb {
-    margin-left: 1em;
-  }
-}
-.panels-flexible-row-front_page-1-inside {
-  margin: 2em 0;
-}
+/*.breadcrumb {
+	text-transform: lowercase;
+	margin-left: 1.25em;
+	padding-left: 0;
+	@media (max-width: @screen-md-max) {
+		padding:0;
+		margin-left: 0;
+	}
+	@media (max-width: @screen-sm-max) {
+		margin-left: 1em;
+	}
+}*/
+/*.panels-flexible-row-front_page-1-inside {
+	margin: 2em 0;
+} */
 .field-items {
   margin-bottom: 0.75em;
 }
@@ -7200,33 +7168,27 @@ h4 {
 .media .media-body p {
   font-size: 1em;
 }
-.panels-flexible-region-news_events-content-inside > .views-field-body {
-  padding: 0.71em;
-  /* ~10px */
-}
+/*.panels-flexible-region-news_events-content-inside > .views-field-body {
+	padding: 0.71em;
+} */
 /* FILTER DISPLAY */
-#views-exposed-form-topic-with-filter-panel-pane-1,
+/*#views-exposed-form-topic-with-filter-panel-pane-1,
 #views-exposed-form-topic-with-filter-panel-pane-3,
 #views-exposed-form-keyword-panel-pane-1 {
-  margin-left: 2.5em;
-}
-@media (max-width: 1199px) {
-  #views-exposed-form-topic-with-filter-panel-pane-1,
-  #views-exposed-form-topic-with-filter-panel-pane-3,
-  #views-exposed-form-keyword-panel-pane-1 {
-    margin-left: 0;
-  }
+	margin-left: 2.5em;
+	@media (max-width: @screen-md-max) {
+		margin-left: 0;
+	}
 }
 .view-filters {
-  padding-bottom: 2em;
-  /* ~28px */
+	padding-bottom:2em; 
 }
 #edit-sort-bef-combine {
-  display: inline-block;
+	display: inline-block;
 }
 #edit-reset {
-  margin-top: 0;
-}
+	margin-top:0;
+} */
 .views-label-field-biography,
 .views-label-field-birth-date,
 .views-label-field-death-date,
@@ -7234,20 +7196,19 @@ h4 {
 .views-label-name-1 {
   font-weight: bold;
 }
-.field-collection-container {
-  margin-bottom: 0;
-  border-bottom-width: 0;
+/*.field-collection-container {
+	margin-bottom: 0;
+	border-bottom-width: 0;
 }
 .vefl-region-right {
-  float: right;
+	float: right;
 }
 .views-exposed-form {
-  font-size: 1em;
-  /* ~14px */
-}
-.views-exposed-form .views-exposed-widget .btn {
-  margin-top: 0;
-}
+	font-size:1em; 
+	.views-exposed-widget .btn {
+		margin-top:0;
+	}
+} */
 #views-bootstrap-grid-1 > div.row,
 .row-filter {
   padding-top: 2em;
@@ -7272,14 +7233,13 @@ hr {
 .caption {
   padding: 0 1em 0 0;
 }
-/* COLLECTION PAGE */
+/* COLLECTION PAGE 
 .panels-flexible-collections_layout {
-  margin-bottom: 2.15em;
-  /* ~30px */
-}
-.panels-flexible-collections_layout h3 {
-  margin-top: 0;
-}
+	margin-bottom:2.15em; 
+	h3 {
+		margin-top: 0;
+	}
+}*/
 /* BASIC PAGE */
 .indent {
   margin-left: 1.25em;
@@ -7289,20 +7249,16 @@ hr {
     margin-left: 0;
   }
 }
-/* used on collection & person taxonomy term page */
+/* used on collection & person taxonomy term page 
 .pane-page-title h2 {
-  margin-left: 1.15em;
-}
-@media (max-width: 1199px) {
-  .pane-page-title h2 {
-    margin-left: 0;
-  }
-}
-@media (max-width: 991px) {
-  .pane-page-title h2 {
-    margin-left: 0.4em;
-  }
-}
+	margin-left:1.15em;
+	@media (max-width: @screen-md-max) {
+		margin-left: 0;
+	}
+	@media (max-width: @screen-sm-max) {
+		margin-left: 0.4em;
+	}
+}*/
 #contact-site-form,
 #page-body,
 #about-collection {
