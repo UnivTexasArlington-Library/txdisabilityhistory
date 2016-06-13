@@ -15,16 +15,7 @@ h1 {
 h2 {
 	font-size: 2.15em; /* ~30px */
 }
-#page-title {
-	margin-left:1.15em;
-	@media (max-width: @screen-sm-max) {
-		margin-left: 1em;
-	}
-}
-.page-header {
-	margin-left: 0.5em;
-	border-bottom: none;
-}
+
 h3 {
 	color:@brand-primary;
 	font-size: 1.7em; /* ~24px */
@@ -106,12 +97,12 @@ h4 {
 	border-color: transparent;
 	margin-top: 0;
 	padding-top: 1em;
-	padding-right:0;
+	
 }
 .logo-wrapper,
 .logo-wrapper-inside {
 	padding-bottom:1.5em;
-	padding-left: 1.5em;
+	padding-left: 3%;
 	@media (max-width: @screen-md-max) {
 		padding-left: 1em;
 	}
@@ -145,7 +136,7 @@ h4 {
 		right: 0;
 		padding: 1.5em; /* 21px */
 		max-width: 28.6em; /* ~400px */
-		margin-right: 3.6em; /* ~50px */
+		margin-right: 3%;
 		font-size: 1.2em; /* ~17px */
 		a {
 			color:#fff;
@@ -172,14 +163,6 @@ h4 {
 	}
 }
 
-.navbar {
-	margin-bottom: 0;
-	> .container-fluid .navbar-brand {
-		@media (max-width: @screen-sm-max) {
-			margin-left: 0;
-		}
-	}
-}
 .region-navigation {
 	.form-control {
 		border-color: @brand-primary;
@@ -188,13 +171,13 @@ h4 {
 .navbar-header {
 	margin-left: 1.5em;
 	@media (max-width: @screen-md-max) {
-		margin-left: 1em;
+		
 	}
 	@media (max-width: @screen-sm-max) {
-		margin-left: 0.5em;
+		
 	}
 	h1 {
-		margin: 0;
+
 		color:@brand-primary;
 		text-transform: uppercase;
 		letter-spacing: 1px;
@@ -214,7 +197,9 @@ h4 {
 	margin-bottom: 0;
 }
 .search-browse {
-	padding-right: 0;
+	padding-right: 3%;
+	float: right;
+	display: inline-block;
 }
 #block-menu-menu-browse-by {
 	display:inline-block;
@@ -279,6 +264,13 @@ h4 {
 }
 #news-events {
 	margin: 2em 0;
+}
+#page-title {
+	margin-left: 3%;
+}
+.page-header {
+	margin-left: 3%;
+	border-bottom: none;
 }
 #backtotop {
 	background: transparent url("/txdisabilityhistory/sites/default/files/back-to-top.png") no-repeat scroll center center;
