@@ -204,7 +204,7 @@ h4 {
 }
 
 #block-menu-menu-browse-by {
-	display:inline-block;
+	/*display:inline-block;*/
 	> ul > li > a {
 		border:1px solid @brand-primary;
 		border-radius: @border-radius-base;
@@ -214,9 +214,9 @@ h4 {
 		color: @font-teal;
 	}
 }
-#block-views-exp-search-page {
+/*#block-views-exp-search-page {
 	display:inline-block;
-}
+} */
 #edit-search-api-multi-fulltext-wrapper {
 	padding-right: 0px;
 	padding-top: 0px;
@@ -224,20 +224,18 @@ h4 {
 		position: fixed;
 		right: -9999px;
 	}
-	#edit-search-api-multi-fulltext {
-		border-bottom-right-radius: 0;
-		border-top-right-radius: 0;
-	}
-	#edit-submit-search {
-		border-bottom-left-radius: 0;
-		border-top-left-radius: 0;
-	}
 }
-#views-exposded-form-search-page {
-	.views-exposed-widget .views-submit-button {
-		padding-top:0;
-	}
+.views-exposed-widget .views-submit-button {
+	padding:0;
 } 
+#edit-search-api-multi-fulltext {
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+}
+#edit-submit-search {
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+}
 .navbar-collapse.in {
 	overflow-y: visible;
 }
@@ -281,7 +279,7 @@ h4 {
 
 .breadcrumb {
 	text-transform: lowercase;
-	margin-left: 2.5em; /* 35px */
+	margin-left: 1.25em;
 	padding-left: 0;
 	@media (max-width: @screen-md-max) {
 		padding:0;
