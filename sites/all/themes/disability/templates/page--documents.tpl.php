@@ -59,16 +59,16 @@
   </section> <!-- end.navbar-wrapper" -->
     <div role="banner" id="page-header">
       <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
-      <?php print render($title_prefix); ?>
+      <!-- <?php print render($title_prefix); ?>
       <?php if (!empty($title)): ?>
       <h2 class="page-header"><?php print $title; ?>DOCUMENTS</h2>
       <?php endif; ?>
-      <?php print render($title_suffix); ?>
+      <?php print render($title_suffix); ?> -->
       <?php print render($page['header']); ?> 
   </div> <!-- /#page-header -->
 </div> <!-- end.container-fluid" -->
 
-<div class="main-container container" role="main">
+<div class="main-container fluid-container" role="main">
   
   <div class="row">
 
