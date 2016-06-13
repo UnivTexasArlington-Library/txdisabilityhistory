@@ -17,7 +17,7 @@
     </div> <!-- end #green-menu -->
   </section> <!-- end.row logo-wrapper-->
 
-  <section class="row navbar-wrapper">
+  <section class="row navbar-wrapper-inside">
     <header id="navbar-front" role="banner" class="<?php print $navbar_classes; ?>">
 
       <div class="navbar-header col-xs-12 col-sm-6 col-md-5 col-lg-7">
@@ -57,14 +57,13 @@
 
     </header>
   </section> <!-- end.navbar-wrapper" -->
+    <div role="banner" id="page-header">
+    <?php print render($page['header']); ?> 
+  </div> <!-- /#page-header -->
 </div> <!-- end.container-fluid" -->
 
 <div class="main-container container" role="main">
-
-  <div role="banner" id="page-header">
-    <?php print render($page['header']); ?> 
-  </div> <!-- /#page-header -->
-
+  
   <div class="row">
 
     <?php if (!empty($page['sidebar_first'])): ?>
