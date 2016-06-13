@@ -6999,6 +6999,7 @@ h4 {
   border-color: transparent;
   margin-top: 0;
   padding-top: 1em;
+  padding-right: 0;
 }
 .logo-wrapper,
 .logo-wrapper-inside {
@@ -7121,8 +7122,12 @@ h4 {
 #edit-actions {
   margin-bottom: 0;
 }
+.search-browse {
+  padding-right: 0;
+}
 #block-menu-menu-browse-by {
-  /*display:inline-block;*/
+  display: inline-block;
+  float: right;
 }
 #block-menu-menu-browse-by > ul > li > a {
   border: 1px solid #26635e;
@@ -7132,9 +7137,9 @@ h4 {
   background-color: #fff;
   color: #3b7c76;
 }
-/*#block-views-exp-search-page {
-	display:inline-block;
-} */
+#block-views-exp-search-page {
+  display: inline-block;
+}
 #edit-search-api-multi-fulltext-wrapper {
   padding-right: 0px;
   padding-top: 0px;
