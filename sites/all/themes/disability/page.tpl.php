@@ -1,6 +1,6 @@
 <div class="container-fluid">
   
-  <section class="row logo-wrapper">
+  <section class="row logo-wrapper-inside">
     
     <div id="logo" class="col-xs-12 col-sm-6 col-md-5 col-lg-4" >
       <?php if (!empty($page['logo'])): ?>
