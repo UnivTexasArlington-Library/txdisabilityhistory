@@ -6908,7 +6908,7 @@ h2 {
     margin-left: 1em;
   }
 }
-.page-title {
+.page-header {
   margin-left: 0.5em;
   border-bottom: none;
 }
@@ -7359,6 +7359,9 @@ hr {
 #page-body li,
 #about-collection li {
   font-size: 1.4em;
+}
+#about-collection {
+  margin-left: inherit;
 }
 /* FOOTER */
 footer {
