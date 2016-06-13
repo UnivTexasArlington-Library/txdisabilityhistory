@@ -9,7 +9,7 @@
     </div> <!-- end #logo -->
     
     <div id="green-menu">
-      <nav class="navbar navbar-right">
+      <nav class="navbar">
         <?php if (!empty($secondary_nav)): ?>
         <?php print render($secondary_nav); ?>
         <?php endif; ?>
