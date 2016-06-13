@@ -53,6 +53,16 @@ h4 {
 #logo {
 	margin-top:2em;
 }
+#sitename h1 {
+    color: #26635E;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1em;
+    margin-top: 0;
+    		&:focus, &:hover {
+			color:inherit;
+		}
+}
 #green-menu,
 #search-browse {
 	float:right;
@@ -147,46 +157,13 @@ h4 {
 		} 
 	}
 }
-
-
-
 .region-navigation {
 	.form-control {
 		border-color: @brand-primary;
 	}
 }
-.navbar-header {
-	margin-left: 1.5em;
-	@media (max-width: @screen-md-max) {
-		
-	}
-	@media (max-width: @screen-sm-max) {
-		
-	}
-	h1 {
-
-		color:@brand-primary;
-		text-transform: uppercase;
-		letter-spacing: 1px;
-		line-height: 1em; /* ~36.4px */
-		padding: 7px 5px 0 0;
-		&:focus, &:hover {
-			color:inherit;
-		}
-	}
-}
-.logo img{
-	margin-left: 3.571428571428571em;
-	padding-top:1em;
-	max-width: 400px;
-}
 #edit-actions {
 	margin-bottom: 0;
-}
-#search-browse {
-	padding-right: 3%;
-	float: right;
-	display: inline-block;
 }
 #block-menu-menu-browse-by {
 	display:inline-block;

@@ -18,9 +18,9 @@
   </section> <!-- end.row logo-wrapper-->
 
   <section class="row navbar-wrapper">
-    <header id="navbar-front" role="banner" class="<?php print $navbar_classes; ?>">
+    <header id="navbar-front" role="banner" class="navbar">
 
-      <div id="sitename" class="navbar-header">
+      <div id="sitename">
         <?php if (!empty($site_name)): ?>
           <h1><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a></h1>
         <?php endif; ?>
