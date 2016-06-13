@@ -6908,6 +6908,10 @@ h2 {
     margin-left: 1em;
   }
 }
+.page-title {
+  margin-left: 0.5em;
+  border-bottom: none;
+}
 h3 {
   color: #26635e;
   font-size: 1.7em;
@@ -7321,7 +7325,7 @@ hr {
 }
 /* BASIC PAGE */
 .indent {
-  margin-left: 2.5em;
+  margin-left: 1.25em;
 }
 @media (max-width: 1199px) {
   .indent {
