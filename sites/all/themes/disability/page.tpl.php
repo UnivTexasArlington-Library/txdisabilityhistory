@@ -18,14 +18,14 @@
   </section> <!-- end.row logo-wrapper-->
 
   <section class="row navbar-wrapper-inside">
-    <header id="navbar-front" role="banner" class="<?php print $navbar_classes; ?>">
+    <header role="banner" class="<?php print $navbar_classes; ?>">
 
-      <div class="navbar-header">
+      <div id="sitename" class="navbar-header">
         <?php if (!empty($site_name)): ?>
           <h1><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a></h1>
         <?php endif; ?>
       </div> <!-- end.navbar-header-->
-      <div class="search-browse">
+      <div id="search-browse">
         <!-- nav-mobile -->
         <?php if (!empty($primary_nav) || !empty($page['navigation'])): ?>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">

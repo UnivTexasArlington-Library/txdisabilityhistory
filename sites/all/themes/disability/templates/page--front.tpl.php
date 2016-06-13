@@ -2,13 +2,13 @@
 	
   <section class="row logo-wrapper">
     
-    <div id="logo" class="col-xs-12 col-sm-6 col-md-5 col-lg-4" >
+    <div id="logo">
       <?php if (!empty($page['logo'])): ?>
       <?php print render($page['logo']); ?> 
       <?php endif; ?> 
     </div> <!-- end #logo -->
     
-    <div id="green-menu" class="col-xs-12 col-sm-5 col-md-6 col-lg-7" >
+    <div id="green-menu">
       <nav class="navbar navbar-right">
         <?php if (!empty($secondary_nav)): ?>
         <?php print render($secondary_nav); ?>
@@ -20,12 +20,12 @@
   <section class="row navbar-wrapper">
     <header id="navbar-front" role="banner" class="<?php print $navbar_classes; ?>">
 
-      <div class="navbar-header col-xs-12 col-sm-6 col-md-5 col-lg-7">
+      <div id="sitename" class="navbar-header">
         <?php if (!empty($site_name)): ?>
           <h1><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a></h1>
         <?php endif; ?>
       </div> <!-- end.navbar-header-->
-      <div class="search-browse col-xs-12 col-sm-5 col-md-6 col-lg-4">
+      <div id="search-browse">
         <!-- nav-mobile -->
         <?php if (!empty($primary_nav) || !empty($page['navigation'])): ?>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
