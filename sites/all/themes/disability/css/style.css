@@ -6913,13 +6913,6 @@ h4 {
 }
 /* PAGE TOP */
 .logo-wrapper,
-.logo-wrapper-inside,
-.navbar-wrapper,
-.navbar-wrapper-inside {
-  padding-left: 3%;
-  padding-right: 3%;
-}
-.logo-wrapper,
 .logo-wrapper-inside {
   padding-bottom: 1.5em;
 }
@@ -6937,12 +6930,18 @@ h4 {
 #search-browse {
   display: inline-block;
 }
+#logo,
+#sitename {
+  margin-left: 3%;
+}
 #logo {
   margin-top: 2em;
 }
 #green-menu,
 #search-browse {
   float: right;
+  margin-right: 3%
+	;
 }
 #uta_logo {
   padding-right: 1em;
@@ -7017,7 +7016,6 @@ h4 {
   border-color: transparent;
   margin-top: 0;
   padding-top: 1em;
-  width: 100%;
 }
 #highlighted {
   margin-right: -15px;
