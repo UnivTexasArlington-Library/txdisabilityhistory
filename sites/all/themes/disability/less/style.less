@@ -240,9 +240,9 @@ h4 {
 .field-items {
 	margin-bottom: 0.75em;
 }
-.row-field {
-	margin-bottom:0.35em; /* ~5px */
-}
+/*.row-field {
+	margin-bottom:0.35em;
+}*/
 /* NEWS & EVENTS */
 .views-more-link {
 	float:right;
@@ -298,6 +298,9 @@ hr {
 .pane-page-title {
 	padding-left:3%;
 }
+#page-title h2 {
+	padding-left: 15px;
+}
 #contact-site-form, 
 #page-body,
 #about-collection {
@@ -308,7 +311,18 @@ hr {
 	}
 }
 #about-collection {
-	margin-left: 3%;
+	p, li {
+		font-size: 1.4em;
+	}
+}
+
+/* FIELD COLLECTION CSS */
+.field-name-field-date-created,
+.field-name-field-approximate-date,
+.field-name-field-publisher,
+.field-name-field-publication-place,
+.field-name-field-publication-date {
+	display:inline-block;
 }
 /* FOOTER */
 footer{
