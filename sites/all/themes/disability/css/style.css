@@ -6953,24 +6953,33 @@ h4 {
 #logo {
   margin-top: 2em;
 }
-#uta_logo {
-  padding-right: 1em;
-  border-right: 1px solid #FFF;
+#uta_logo,
+#lib_logo {
   height: 2.15em;
   /* ~30px */
   width: auto;
 }
 #uta_logo:hover,
-#uta_logo:focus {
-  background: rgba(23, 24, 24, 0.18) none repeat scroll 0% 0%;
-}
-#lib_logo {
-  height: 2.15em;
-  /* 28px */
-}
 #lib_logo:hover,
+#uta_logo:focus,
 #lib_logo:focus {
   background: rgba(23, 24, 24, 0.18) none repeat scroll 0% 0%;
+}
+@media (max-width: 767px) {
+  #uta_logo,
+  #lib_logo {
+    height: 1em;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #uta_logo,
+  #lib_logo {
+    height: 1.5em;
+  }
+}
+#uta_logo {
+  padding-right: 1em;
+  border-right: 1px solid #FFF;
 }
 #navbar,
 #navbar-front {
@@ -6978,8 +6987,20 @@ h4 {
   background-color: transparent;
   margin-left: -15px;
 }
+@media (min-width: 992px) and (max-width: 1199px) {
+  #navbar,
+  #navbar-front {
+    margin-left: 0;
+  }
+}
+#navbar-front {
+  margin-bottom: 0;
+}
 .region-header {
   margin-left: -15px;
+}
+.region-navigation .form-control {
+  border-color: #26635e;
 }
 /* FRONT PAGE */
 .logo-wrapper {
@@ -7055,6 +7076,7 @@ h4 {
   padding-right: 0;
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
+  max-width: 6em;
 }
 #edit-search-api-multi-fulltext-wrapper label {
   position: fixed;
@@ -7072,6 +7094,11 @@ h4 {
 }
 .secondary > li.first > a {
   border-bottom-left-radius: 4px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .secondary > li {
+    display: inline-block;
+  }
 }
 .secondary > li > a {
   background-color: #3b7c76;

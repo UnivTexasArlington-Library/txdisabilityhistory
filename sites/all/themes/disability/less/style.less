@@ -38,13 +38,10 @@ h4 {
 	padding-left: 3%;
 	padding-right: 3%;
 }
-
-
 .logo-wrapper,
 .logo-wrapper-inside {
 	padding-bottom:1.5em;
 }
-
 #logo,
 #green-menu,
 #sitename,
@@ -71,31 +68,44 @@ h4 {
 #logo {
 	margin-top:2em;
 }
-#uta_logo {
-	padding-right: 1em;
-	border-right: 1px solid #FFF;
+#uta_logo,
+#lib_logo {
 	height: 2.15em; /* ~30px */
 	width:auto;
 	&:hover, 
 	&:focus {
 		background: rgba(23,24,24,0.18) none repeat scroll 0% 0%;
 	}
-}
-#lib_logo {
-	height:2.15em; /* 28px */
-	&:hover, 
-	&:focus {
-		background: rgba(23,24,24,0.18) none repeat scroll 0% 0%;
+	@media (max-width: @screen-xs-max) { 
+		height: 1em;
 	}
+	@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+		height: 1.5em;
+	}
+}
+#uta_logo {
+	padding-right: 1em;
+	border-right: 1px solid #FFF;
 }
 #navbar,
 #navbar-front {
 	padding-top: 1em;
 	background-color: transparent;
 	margin-left: -15px;
+	@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+		margin-left:0;
+	}
+}
+#navbar-front {
+	margin-bottom:0;
 }
 .region-header {
 	margin-left: -15px;
+}
+.region-navigation {
+	.form-control {
+		border-color: @brand-primary;
+	}
 }
 
 /* FRONT PAGE */
@@ -167,6 +177,7 @@ h4 {
 	padding-right: 0;
 	border-bottom-right-radius: 0;
 	border-top-right-radius: 0;
+	max-width: 6em;
 	label {
 		position: fixed;
 		right: -9999px;
@@ -186,15 +197,18 @@ h4 {
 	> li.first > a {
 		border-bottom-left-radius: @border-radius-base;
 	}
-	> li > a {
+	> li { 
+		@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { display:inline-block; }
+		> a {
 		background-color: @font-teal;
 		color:#fff;
 		padding-top: 0.71em; /* ~10px */
 		padding-bottom: 0.71em; /* ~10px */
 		border-right: 1px solid #fff;
-		&:hover,
-		&:focus {
-			color:#000;
+			&:hover,
+			&:focus {
+				color:#000;
+			}
 		}
 	}
 	> li.last > a {
