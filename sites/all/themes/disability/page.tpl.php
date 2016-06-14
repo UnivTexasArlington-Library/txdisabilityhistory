@@ -24,7 +24,8 @@
         <?php if (!empty($site_name)): ?>
           <h1><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a></h1>
         <?php endif; ?>
-      </div> <!-- end.navbar-header-->
+      </div> <!-- end #sitename-->
+
       <div id="search-browse">
         <!-- nav-mobile -->
         <?php if (!empty($primary_nav) || !empty($page['navigation'])): ?>
@@ -53,19 +54,12 @@
             </nav>
           </div>
         <?php endif; ?>
-      </div> <!-- end.search-browse -->
-
-    </header>
+      </div> <!-- end #search-browse -->
+    </header> <!-- end.navbar -->
   </section> <!-- end.navbar-wrapper" -->
-    <div role="banner" id="page-header">
-      <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
-      <?php print render($title_prefix); ?>
-      <?php if (!empty($title)): ?>
-      <h2 class="page-header"><?php print $title; ?></h2>
-      <?php endif; ?>
-      <?php print render($title_suffix); ?>
-      <?php print render($page['header']); ?> 
-  </div> <!-- /#page-header -->
+  <section role="banner" area-labelledby="breadcrumbs">
+    <?php print render($page['header']); ?> 
+  </section> <!-- /#page-header -->
 </div> <!-- end.container-fluid" -->
 
 <div class="main-container fluid-container" role="main">
