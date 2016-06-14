@@ -6916,7 +6916,9 @@ h4 {
 .logo-wrapper-inside,
 .navbar-wrapper,
 .navbar-wrapper-inside,
-#block-crumbs-breadcrumb {
+#block-crumbs-breadcrumb,
+.tabs--primary,
+.views-exposed-form {
   padding-left: 3%;
   padding-right: 3%;
 }
@@ -6944,6 +6946,9 @@ h4 {
 #green-menu,
 #search-browse {
   float: right;
+}
+.navbar-collapse.collapse {
+  padding-right: 0;
 }
 #logo {
   margin-top: 2em;
@@ -7124,18 +7129,10 @@ h4 {
 .region-content {
   margin-bottom: 4em;
 }
-/*.breadcrumb {
-	text-transform: lowercase;
-	margin-left: 1.25em;
-	padding-left: 0;
-	@media (max-width: @screen-md-max) {
-		padding:0;
-		margin-left: 0;
-	}
-	@media (max-width: @screen-sm-max) {
-		margin-left: 1em;
-	}
-}*/
+.breadcrumb {
+  text-transform: lowercase;
+  padding-left: 0;
+}
 /*.panels-flexible-row-front_page-1-inside {
 	margin: 2em 0;
 } */
@@ -7204,12 +7201,6 @@ h4 {
   float: right;
 }
 /* for exposed filters on term pages */
-/*.views-exposed-form {
-	font-size:1em; 
-	.views-exposed-widget .btn {
-		margin-top:0;
-	}
-} */
 #views-bootstrap-grid-1 > div.row,
 .row-filter {
   padding-top: 2em;
@@ -7246,7 +7237,7 @@ hr {
   margin-left: 3%;
 }
 /* used on collection & person taxonomy term page */
-.pane-page-title h2 {
+.pane-page-title {
   padding-left: 3%;
 }
 #contact-site-form,
