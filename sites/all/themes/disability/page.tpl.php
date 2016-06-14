@@ -9,7 +9,7 @@
     </div> <!-- end #logo -->
     
     <div id="green-menu">
-      <nav class="navbar">
+      <nav class="navbar" role="navigation" aria-labelledby="about menu">
         <?php if (!empty($secondary_nav)): ?>
         <?php print render($secondary_nav); ?>
         <?php endif; ?>
@@ -38,7 +38,7 @@
         <!-- nav-desktop -->
         <?php if (!empty($primary_nav) || !empty($page['navigation'])): ?>
           <div class="navbar-collapse collapse">
-            <nav role="navigation">
+            <nav role="navigation" aria-labelledby="browse by menu">
               <?php if (!empty($primary_nav)): ?>
               <div>
                 <?php print render($primary_nav); ?>
