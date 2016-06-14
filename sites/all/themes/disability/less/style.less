@@ -82,9 +82,7 @@ h4 {
 	}
 }
 #lib_logo {
-	/*margin-left: 0.35em;  ~5px */
 	height:2.15em; /* 28px */
-	/*padding-top:0.35em;  */
 	&:hover, 
 	&:focus {
 		background: rgba(23,24,24,0.18) none repeat scroll 0% 0%;
@@ -108,20 +106,17 @@ h4 {
 	left: 0px;
 	z-index: 20;
 	background-color: rgba(17, 17, 17, 0.5);
+	height: 6em;
 }
-#navbar-front {
+
+.navbar-wrapper {
 	background-color: rgba(255,255,255,0.8);
-}
-/*.navbar-wrapper {
-	margin-top:4.5em;
+	margin-top:4em;
 	position: absolute;
-	top:0;
 	right: 0;
 	left:0;
 	z-index: 20;
-}*/
-
-
+}
 #highlighted {
 	margin-right: -15px;
 	margin-left: -15px;
@@ -152,14 +147,6 @@ h4 {
 		} 
 	}
 }
-/*.region-navigation {
-	.form-control {
-		border-color: @brand-primary;
-	}
-} */
-/* #edit-actions {
-	margin-bottom: 0;
-} */
 #block-menu-menu-browse-by {
 	display:inline-block;
 	float:right;
@@ -187,6 +174,7 @@ h4 {
 }
 #edit-submit-search,
 #edit-submit-keyword,
+#edit-submit-topic-with-filter,
 #edit-reset {
 	margin-top: 0;
 }
@@ -194,10 +182,6 @@ h4 {
 	border-bottom-left-radius: 0;
 	border-top-left-radius: 0;
 }
-
-/*.navbar-collapse.in {
-	overflow-y: visible;
-} */
 .secondary {
 	> li.first > a {
 		border-bottom-left-radius: @border-radius-base;
@@ -221,13 +205,6 @@ h4 {
 #news-events {
 	margin: 2em 0;
 }
-/*#page-title {
-	margin-left: 3%;
-}
-.page-header {
-	margin-left: 3%;
-	border-bottom: none;
-}*/
 #backtotop {
 	background: transparent url("/txdisabilityhistory/sites/default/files/back-to-top.png") no-repeat scroll center center;
 	height: 82px;
@@ -246,9 +223,6 @@ h4 {
 	text-transform: lowercase;
 	padding-left: 0;
 }
-/*.panels-flexible-row-front_page-1-inside {
-	margin: 2em 0;
-} */
 .field-items {
 	margin-bottom: 0.75em;
 }
@@ -274,28 +248,6 @@ h4 {
 		}
 	}
 }
-/*.panels-flexible-region-news_events-content-inside > .views-field-body {
-	padding: 0.71em;
-} */
-
-/* FILTER DISPLAY */
-/*#views-exposed-form-topic-with-filter-panel-pane-1,
-#views-exposed-form-topic-with-filter-panel-pane-3,
-#views-exposed-form-keyword-panel-pane-1 {
-	margin-left: 2.5em;
-	@media (max-width: @screen-md-max) {
-		margin-left: 0;
-	}
-}
-.view-filters {
-	padding-bottom:2em; 
-}
-#edit-sort-bef-combine {
-	display: inline-block;
-}
-#edit-reset {
-	margin-top:0;
-} */
 .views-label-field-biography,
 .views-label-field-birth-date, 
 .views-label-field-death-date,
@@ -303,10 +255,6 @@ h4 {
 .views-label-name-1 {
 	font-weight: bold;
 }
-/*.field-collection-container {
-	margin-bottom: 0;
-	border-bottom-width: 0;
-} */
 .vefl-region-right {
 	float: right;
 } /* for exposed filters on term pages */
@@ -329,14 +277,6 @@ hr {
 .caption {
 	padding: 0 1em 0 0;
 }
-/* COLLECTION PAGE 
-.panels-flexible-collections_layout {
-	margin-bottom:2.15em; 
-	h3 {
-		margin-top: 0;
-	}
-}*/
-
 /* BASIC PAGE */
 .indent { 
 	margin-left:3%;
