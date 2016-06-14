@@ -6915,7 +6915,8 @@ h4 {
 .logo-wrapper,
 .logo-wrapper-inside,
 .navbar-wrapper,
-.navbar-wrapper-inside {
+.navbar-wrapper-inside,
+#block-crumbs-breadcrumb {
   padding-left: 3%;
   padding-right: 3%;
 }
@@ -6943,7 +6944,6 @@ h4 {
 #green-menu,
 #search-browse {
   float: right;
-  margin-right: 3%;
 }
 #logo {
   margin-top: 2em;
@@ -6973,6 +6973,9 @@ h4 {
 #navbar-front {
   padding-top: 1em;
   background-color: transparent;
+  margin-left: -15px;
+}
+.region-header {
   margin-left: -15px;
 }
 /* FRONT PAGE */
@@ -7042,6 +7045,7 @@ h4 {
 #block-menu-menu-browse-by {
   display: inline-block;
   float: right;
+  padding-top: 0.5em;
 }
 #block-menu-menu-browse-by > ul > li > a {
   border: 1px solid #26635e;
@@ -7055,24 +7059,23 @@ h4 {
   display: inline-block;
 }
 #edit-search-api-multi-fulltext-wrapper {
-  /*padding-right: 0px;
-	padding-top: 0px;*/
+  padding-right: 0;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
 }
 #edit-search-api-multi-fulltext-wrapper label {
   position: fixed;
   right: -9999px;
 }
-/*.views-exposed-form .views-exposed-widget {
-	padding:0;
-} 
-#edit-search-api-multi-fulltext {
-	border-bottom-right-radius: 0;
-	border-top-right-radius: 0;
+#edit-submit-search,
+#edit-submit-keyword,
+#edit-reset {
+  margin-top: 0;
 }
 #edit-submit-search {
-	border-bottom-left-radius: 0;
-	border-top-left-radius: 0;
-}*/
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
 /*.navbar-collapse.in {
 	overflow-y: visible;
 } */
@@ -7196,11 +7199,12 @@ h4 {
 /*.field-collection-container {
 	margin-bottom: 0;
 	border-bottom-width: 0;
-}
+} */
 .vefl-region-right {
-	float: right;
+  float: right;
 }
-.views-exposed-form {
+/* for exposed filters on term pages */
+/*.views-exposed-form {
 	font-size:1em; 
 	.views-exposed-widget .btn {
 		margin-top:0;
@@ -7239,23 +7243,12 @@ hr {
 }*/
 /* BASIC PAGE */
 .indent {
-  margin-left: 1.25em;
+  margin-left: 3%;
 }
-@media (max-width: 1199px) {
-  .indent {
-    margin-left: 0;
-  }
-}
-/* used on collection & person taxonomy term page 
+/* used on collection & person taxonomy term page */
 .pane-page-title h2 {
-	margin-left:1.15em;
-	@media (max-width: @screen-md-max) {
-		margin-left: 0;
-	}
-	@media (max-width: @screen-sm-max) {
-		margin-left: 0.4em;
-	}
-}*/
+  padding-left: 3%;
+}
 #contact-site-form,
 #page-body,
 #about-collection {
@@ -7271,7 +7264,7 @@ hr {
   font-size: 1.4em;
 }
 #about-collection {
-  margin-left: inherit;
+  margin-left: 3%;
 }
 /* FOOTER */
 footer {
