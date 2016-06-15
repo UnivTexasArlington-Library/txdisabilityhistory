@@ -36,7 +36,7 @@
         </button>
         <?php endif; ?>
         <!-- nav-desktop -->
-        <?php if (!empty($primary_nav) || !empty($page['navigation'])): ?>
+        <?php if (!empty($primary_nav)): ?>
           <div class="navbar-collapse collapse">
             <nav role="navigation" aria-labelledby="main menu">
               <?php if (!empty($secondary_nav)): ?>
@@ -44,17 +44,9 @@
                 <?php print render($secondary_nav); ?>
               </div>
               <?php endif; ?>
-              <?php if (!empty($primary_nav)): ?>
               <div>
                 <?php print render($primary_nav); ?>
               </div>
-              <?php endif; ?>
-              
-              <?php if (!empty($page['navigation'])): ?>
-              <div>
-                <?php print render($page['navigation']); ?>
-              </div>
-              <?php endif; ?>
             </nav>
           </div>
         <?php endif; ?>
