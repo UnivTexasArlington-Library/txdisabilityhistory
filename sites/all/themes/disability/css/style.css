@@ -6782,19 +6782,27 @@ button.close {
   right: -50px;
   text-align: right;
 }
-.flexslider:hover .topic-direction-nav .topic-prev {
+.flexslider:hover .topic-direction-nav .topic-prev,
+.flexslider:focus .topic-direction-nav .topic-prev {
   opacity: 0.8;
   left: 0px;
 }
-.flexslider:hover .topic-direction-nav .topic-prev:hover {
+.flexslider:hover .topic-direction-nav .topic-prev:hover,
+.flexslider:focus .topic-direction-nav .topic-prev:hover,
+.flexslider:hover .topic-direction-nav .topic-prev:focus,
+.flexslider:focus .topic-direction-nav .topic-prev:focus {
   opacity: 1;
   padding-left: 5px;
 }
-.flexslider:hover .topic-direction-nav .topic-next {
+.flexslider:hover .topic-direction-nav .topic-next,
+.flexslider:focus .topic-direction-nav .topic-next {
   opacity: 0.8;
   right: 0px;
 }
-.flexslider:hover .topic-direction-nav .topic-next:hover {
+.flexslider:hover .topic-direction-nav .topic-next:hover,
+.flexslider:focus .topic-direction-nav .topic-next:hover,
+.flexslider:hover .topic-direction-nav .topic-next:focus,
+.flexslider:focus .topic-direction-nav .topic-next:focus {
   opacity: 1;
   padding-right: 5px;
 }
@@ -6865,19 +6873,27 @@ button.close {
   text-align: right;
   padding-right: 5px;
 }
-.flexslider:hover .related-direction-nav .related-prev {
+.flexslider:hover .related-direction-nav .related-prev,
+.flexslider:focus .related-direction-nav .related-prev {
   opacity: 0.8;
   left: 0px;
 }
-.flexslider:hover .related-direction-nav .related-prev:hover {
+.flexslider:hover .related-direction-nav .related-prev:hover,
+.flexslider:focus .related-direction-nav .related-prev:hover,
+.flexslider:hover .related-direction-nav .related-prev:focus,
+.flexslider:focus .related-direction-nav .related-prev:focus {
   opacity: 1;
   padding-left: 5px;
 }
-.flexslider:hover .related-direction-nav .related-next {
+.flexslider:hover .related-direction-nav .related-next,
+.flexslider:focus .related-direction-nav .related-next {
   opacity: 0.8;
   right: 0px;
 }
-.flexslider:hover .related-direction-nav .related-next:hover {
+.flexslider:hover .related-direction-nav .related-next:hover,
+.flexslider:focus .related-direction-nav .related-next:hover,
+.flexslider:hover .related-direction-nav .related-next:focus,
+.flexslider:focus .related-direction-nav .related-next:focus {
   opacity: 1;
   padding-right: 5px;
 }
@@ -6986,7 +7002,7 @@ h4 {
 @media (max-width: 767px) {
   #uta_logo,
   #lib_logo {
-    height: 1em;
+    height: 1.5em;
   }
 }
 #uta_logo {
