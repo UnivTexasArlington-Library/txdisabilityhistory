@@ -38,9 +38,9 @@
         <!-- nav-desktop -->
         <?php if (!empty($primary_nav) || !empty($page['navigation'])): ?>
           <div class="navbar-collapse collapse">
-            <nav role="navigation" aria-labelledby="browse by menu">
+            <nav role="navigation" aria-labelledby="main menu">
               <?php if (!empty($secondary_nav)): ?>
-              <div class="visible-sm visible-xs">
+              <div class="visible-xs">
                 <?php print render($secondary_nav); ?>
               </div>
               <?php endif; ?>

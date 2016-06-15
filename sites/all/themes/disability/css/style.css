@@ -6962,6 +6962,7 @@ h4 {
 }
 .navbar-collapse.in {
   display: inline-block;
+  overflow-y: visible;
 }
 #logo {
   margin-top: 1em;
@@ -7009,6 +7010,9 @@ h4 {
 #navbar-front {
   margin-bottom: 0;
 }
+nav.navbar {
+  margin-bottom: 0;
+}
 .region-header {
   margin-left: -15px;
 }
@@ -7029,7 +7033,7 @@ h4 {
 }
 .navbar-wrapper {
   background-color: rgba(255, 255, 255, 0.8);
-  margin-top: 4em;
+  margin-top: 3em;
   position: absolute;
   right: 0;
   left: 0;
@@ -7110,7 +7114,7 @@ h4 {
 .secondary > li.first > a {
   border-bottom-left-radius: 4px;
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 991px) {
   .secondary > li {
     display: inline-block;
   }
@@ -7131,6 +7135,17 @@ h4 {
 .secondary > li.last > a {
   border-bottom-right-radius: 4px;
   border-right-width: 0;
+}
+@media (max-width: 991px) {
+  .secondary > li {
+    float: left;
+  }
+  .secondary > li > a {
+    border-radius: 4px;
+  }
+  .secondary > li + li {
+    margin-left: 2px;
+  }
 }
 #news-events {
   margin: 2em 0;
@@ -7245,6 +7260,14 @@ hr {
 #about-collection p,
 #about-collection li {
   font-size: 1.4em;
+}
+/* COLLECTION PAGE */
+.panels-flexible-collections_layout {
+  margin-bottom: 2.15em;
+  /* ~30px */
+}
+.panels-flexible-collections_layout h3 {
+  margin-top: 0;
 }
 /* FIELD COLLECTION CSS */
 .field-name-field-date-created,
