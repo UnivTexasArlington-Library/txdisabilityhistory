@@ -45,15 +45,22 @@
                 <?php print render($secondary_nav); ?>
               </div>
               <?php endif; ?>
+              <?php if (!empty($primary_nav)): ?>
               <div>
                 <?php print render($primary_nav); ?>
               </div>
+              <?php endif; ?>
+              
+              <?php if (!empty($page['navigation'])): ?>
+              <div>
+                <?php print render($page['navigation']); ?>
+              </div>
+              <?php endif; ?>
             </nav>
           </div>
         <?php endif; ?>
-      </div> <!-- end.search-browse -->
-
-    </header>
+      </div> <!-- end #search-browse -->
+    </header> <!-- end.navbar -->
   </section> <!-- end.navbar-wrapper" -->
 
   <section id="highlighted">
