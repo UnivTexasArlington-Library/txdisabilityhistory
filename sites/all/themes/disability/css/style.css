@@ -6906,11 +6906,9 @@ button.close {
 /* FONT */
 h1 {
   font-size: 2.6em;
-}
-@media (max-width: 767px) {
-  h1 {
-    font-size: 1.6em;
-  }
+  /*	@media (max-width: @screen-xs-max) {
+		font-size: 1.6em;
+	}*/
 }
 h2 {
   font-size: 2.15em;
