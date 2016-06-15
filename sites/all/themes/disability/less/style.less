@@ -10,6 +10,7 @@ h1 {
 	font-size:2.6em;
 	@media (max-width: @screen-xs-max) {
 		font-size: 1.6em;
+		padding-left: 1em;
 	}
 }
 h2 {
@@ -62,11 +63,23 @@ h4 {
 #search-browse {
 	float:right;
 }
+.navbar-toggle {
+	margin-left:1em;
+	margin-right: 0;
+	border-color: @brand-primary;
+}
+.navbar-toggle .icon-bar {
+	border-color: @brand-primary;
+	border-style: solid;
+}
 .navbar-collapse.collapse {
 	padding-right: 0;
 }
+.navbar-collapse.in {
+	display:inline-block;
+}
 #logo {
-	margin-top:2em;
+	margin-top:1em;
 }
 #uta_logo,
 #lib_logo {
@@ -105,6 +118,8 @@ h4 {
 .region-navigation {
 	.form-control {
 		border-color: @brand-primary;
+		border-bottom-right-radius: 0;
+		border-top-right-radius: 0;
 	}
 }
 
@@ -116,7 +131,7 @@ h4 {
 	left: 0px;
 	z-index: 20;
 	background-color: rgba(17, 17, 17, 0.5);
-	height: 6em;
+	/*height: 6em; */
 }
 
 .navbar-wrapper {
@@ -143,7 +158,7 @@ h4 {
 		right: 0;
 		padding: 1.5em; /* 21px */
 		max-width: 28.6em; /* ~400px */
-		margin-right: 3%;
+		margin-right: 2%;
 		font-size: 1.2em; /* ~17px */
 		a {
 			color:#fff;
