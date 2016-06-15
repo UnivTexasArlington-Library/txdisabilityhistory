@@ -70,6 +70,7 @@ h4 {
 .navbar-toggle {
 	margin-left:1em;
 	margin-right: 0;
+	margin-top:0;
 	border-color: @brand-primary;
 }
 .navbar-toggle .icon-bar {
@@ -95,9 +96,6 @@ h4 {
 	}
 	@media (max-width: @screen-xs-max) { 
 		height: 1em;
-	}
-	@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
-		height: 1.5em;
 	}
 }
 #uta_logo {
@@ -241,7 +239,7 @@ nav.navbar {
 		border-bottom-right-radius: @border-radius-base;
 		border-right-width: 0;
 	}
-	@media (max-width: @screen-sm-max) {
+	@media (max-width: @screen-xs-max) {
 		> li {
 	    	float: left;
 		    // Links rendered as pills
