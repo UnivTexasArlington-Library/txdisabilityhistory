@@ -6894,7 +6894,6 @@ h1 {
 @media (max-width: 767px) {
   h1 {
     font-size: 1.6em;
-    padding-left: 1em;
   }
 }
 h2 {
@@ -6926,6 +6925,11 @@ h4 {
 .logo-wrapper,
 .logo-wrapper-inside {
   padding-bottom: 1.5em;
+}
+@media (max-width: 767px) {
+  .views-exposed-form {
+    padding: 0;
+  }
 }
 #logo,
 #green-menu,
@@ -7011,6 +7015,9 @@ h4 {
 }
 nav.navbar {
   margin-bottom: 0;
+}
+.navbar-nav {
+  margin: 0;
 }
 .region-header {
   margin-left: -15px;
