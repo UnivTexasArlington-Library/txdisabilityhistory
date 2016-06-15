@@ -24,7 +24,8 @@
         <?php if (!empty($site_name)): ?>
           <h1><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a></h1>
         <?php endif; ?>
-      </div> <!-- end.navbar-header-->
+      </div> <!-- end #sitename-->
+
       <div id="search-browse">
         <!-- nav-mobile -->
         <?php if (!empty($primary_nav) || !empty($page['navigation'])): ?>
@@ -36,7 +37,7 @@
         </button>
         <?php endif; ?>
         <!-- nav-desktop -->
-        <?php if (!empty($primary_nav)): ?>
+        <?php if (!empty($primary_nav) || !empty($page['navigation'])): ?>
           <div class="navbar-collapse collapse">
             <nav role="navigation" aria-labelledby="main menu">
               <?php if (!empty($secondary_nav)): ?>

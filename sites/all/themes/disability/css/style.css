@@ -6927,12 +6927,6 @@ h4 {
 .logo-wrapper-inside {
   padding-bottom: 1.5em;
 }
-@media (max-width: 767px) {
-  .navbar-wrapper,
-  .navbar-wrapper-inside {
-    position: static;
-  }
-}
 #logo,
 #green-menu,
 #sitename,
@@ -6962,10 +6956,10 @@ h4 {
 .navbar-toggle .icon-bar {
   background-color-color: #26635e;
 }
-.navbar-collapse .collapse {
+.navbar-collapse.collapse {
   padding-right: 0;
 }
-.navbar-collapse .in {
+.navbar-collapse.in {
   display: inline-block;
   overflow-y: visible;
 }
@@ -7043,6 +7037,11 @@ nav.navbar {
   right: 0;
   left: 0;
   z-index: 20;
+}
+@media (max-width: 767px) {
+  .navbar-wrapper {
+    position: static;
+  }
 }
 #highlighted {
   margin-right: -15px;
