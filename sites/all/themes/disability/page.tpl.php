@@ -1,6 +1,6 @@
 <div class="container-fluid">
   
-  <section class="logo-wrapper-inside">
+  <section class="row logo-wrapper-inside">
     
     <div id="logo">
       <?php if (!empty($page['logo'])): ?>
@@ -17,7 +17,7 @@
     </div> <!-- end #green-menu -->
   </section> <!-- end.row logo-wrapper-->
 
-  <section class="navbar-wrapper-inside">
+  <section class="row navbar-wrapper-inside">
     <header role="banner" class="navbar">
 
       <div id="sitename">
