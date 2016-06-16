@@ -10,7 +10,8 @@ h1 {
 	font-size:2.6em;
 	color:@brand-primary;
 	a {
-		color:@brand-primary;
+		&:hover, 
+	&:focus {color:@brand-primary;}
 	}
 /*	@media (max-width: @screen-xs-max) {
 		font-size: 1.6em;
@@ -38,7 +39,8 @@ h4 {
 .navbar-wrapper-inside,
 #block-crumbs-breadcrumb,
 .tabs--primary,
-.views-exposed-form {
+.views-exposed-form,
+.related-topic-padding {
 	padding-left: 3%;
 	padding-right: 3%;
 }
@@ -273,7 +275,6 @@ nav.navbar {
 		background: transparent url("/txdisabilityhistory/sites/default/files/back-to-top_2.png") no-repeat scroll center center;
 		height: 2em;
 		width: 2em;
-		color:@brand-primary;
 	}
 }
 .region-content {
@@ -283,6 +284,9 @@ nav.navbar {
 .breadcrumb {
 	text-transform: lowercase;
 	padding-left: 0;
+	> .active {
+		display:none;
+	}
 }
 .field-items {
 	margin-bottom: 0.75em;
@@ -412,5 +416,13 @@ footer{
 		a {
 			color:@brand-warning;
 		}
+	}
+}
+/* CONTACT FORM/PAGE */
+#contact-site-form {
+	> label {
+		font-weight: normal;
+		margin-bottom: 0;
+		margin-top:1em;
 	}
 }

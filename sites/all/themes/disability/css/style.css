@@ -6725,6 +6725,13 @@ button.close {
     display: none !important;
   }
 }
+/*@flex-direction-nav-color:            rgba(0,0,0,0.8);
+@flex-direction-nav-text-shadow:      1px 1px 0 rgba( 255, 255, 255, 0.3 );
+@flex-direction-nav-icon-color:       rgba(250,250,250,0.8);
+@flex-direction-nav-icon-text-shadow: 1px 1px 0 rgba( 255, 255, 255, 0.3 );
+@flex-direction-nav-background:			rgba(106,148,144,0.8);
+@flex-direction-nav-icon-prev:        '\f001';
+@flex-direction-nav-icon-next:        '\f002'; */
 .flexslider {
   border-width: 0;
 }
@@ -6763,7 +6770,7 @@ button.close {
   overflow: hidden;
   opacity: 0;
   cursor: pointer;
-  color: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
   text-shadow: none;
   background-color: rgba(106, 148, 144, 0.8);
   padding-top: 120px;
@@ -6851,7 +6858,7 @@ button.close {
   overflow: hidden;
   opacity: 0;
   cursor: pointer;
-  color: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
   text-shadow: none;
   background-color: rgba(106, 148, 144, 0.8);
   padding-top: 100px;
@@ -6916,7 +6923,8 @@ h1 {
 		font-size: 1.6em;
 	}*/
 }
-h1 a {
+h1 a:hover,
+h1 a:focus {
   color: #26635e;
 }
 h2 {
@@ -6941,7 +6949,8 @@ h4 {
 .navbar-wrapper-inside,
 #block-crumbs-breadcrumb,
 .tabs--primary,
-.views-exposed-form {
+.views-exposed-form,
+.related-topic-padding {
   padding-left: 3%;
   padding-right: 3%;
 }
@@ -7192,7 +7201,6 @@ nav.navbar {
     background: transparent url("/txdisabilityhistory/sites/default/files/back-to-top_2.png") no-repeat scroll center center;
     height: 2em;
     width: 2em;
-    color: #26635e;
   }
 }
 .region-content {
@@ -7201,6 +7209,9 @@ nav.navbar {
 .breadcrumb {
   text-transform: lowercase;
   padding-left: 0;
+}
+.breadcrumb > .active {
+  display: none;
 }
 .field-items {
   margin-bottom: 0.75em;
@@ -7344,4 +7355,10 @@ footer a {
 }
 .in-maintenance #page-title h1 a {
   color: #f0ad4e;
+}
+/* CONTACT FORM/PAGE */
+#contact-site-form > label {
+  font-weight: normal;
+  margin-bottom: 0;
+  margin-top: 1em;
 }
