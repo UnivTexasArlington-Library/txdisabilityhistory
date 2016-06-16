@@ -7,6 +7,10 @@
 @flex-direction-nav-icon-next:        '\f002';
 
 
+.flexslider {
+	border-width: 0;
+}
+
 //
 // Topic Slides / topic_slides 
 //
@@ -25,6 +29,7 @@
 	}
 	.flex-caption {
 		padding-left:15px;
+		padding-bottom: 0.7em; /* ~10px */
 	}
 }
 
@@ -46,7 +51,7 @@
 	    opacity: 0;
 	    cursor: pointer;
 	    color: @flex-direction-nav-color;
-	    text-shadow: @flex-direction-nav-text-shadow;
+	    text-shadow: none;
 	    background-color: @flex-direction-nav-background;
 	    padding-top:120px;
 	    
@@ -59,7 +64,7 @@
 		    display: inline-block;
 		    content: @flex-direction-nav-icon-prev;
 		    color: @flex-direction-nav-icon-color;
-		    text-shadow: @flex-direction-nav-icon-text-shadow;
+		    text-shadow: none;
 	    }
 
 	    &.topic-next:before {
@@ -148,7 +153,7 @@
 	    opacity: 0;
 	    cursor: pointer;
 	    color: @flex-direction-nav-color;
-	    text-shadow: @flex-direction-nav-text-shadow;
+	    text-shadow: none;
 	    background-color: @flex-direction-nav-background;
 	    padding-top:100px;
 	    max-height: 100%;
@@ -162,7 +167,7 @@
 		    display: inline-block;
 		    content: @flex-direction-nav-icon-prev;
 		    color: @flex-direction-nav-icon-color;
-		    text-shadow: @flex-direction-nav-icon-text-shadow;
+		    text-shadow: none;
 	    }
 
 	    &.related-next:before {

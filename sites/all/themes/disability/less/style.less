@@ -8,12 +8,16 @@
 /* FONT */
 h1 {
 	font-size:2.6em;
+	color:@brand-primary;
+	a {
+		color:@brand-primary;
+	}
 /*	@media (max-width: @screen-xs-max) {
 		font-size: 1.6em;
 	}*/
 }
 h2 {
-	font-size: 2.15em; /* ~30px */
+	font-size: 1.9em; /* ~26.6px */
 }
 
 h3 {
@@ -88,15 +92,15 @@ h4 {
 }
 #uta_logo,
 #lib_logo {
-	height: 2.15em; /* ~30px */
-	width:auto;
+	/*height: 2.15em;  ~30px 
+	width:auto; */
 	&:hover, 
 	&:focus {
 		background: rgba(23,24,24,0.18) none repeat scroll 0% 0%;
 	}
-	@media (max-width: @screen-xs-max) { 
+	/*@media (max-width: @screen-xs-max) { 
 		height: 1.5em;
-	}
+	} */
 }
 #uta_logo {
 	padding-right: 1em;
@@ -203,7 +207,7 @@ nav.navbar {
 	padding-right: 0;
 	border-bottom-right-radius: 0;
 	border-top-right-radius: 0;
-	max-width: 6em;
+	max-width: 8em;
 	label {
 		position: fixed;
 		right: -9999px;
@@ -228,9 +232,10 @@ nav.navbar {
 		> a {
 		background-color: @font-teal;
 		color:#fff;
-		padding-top: 0.71em; /* ~10px */
-		padding-bottom: 0.71em; /* ~10px */
+		padding-top: 0.4em; /* ~10px */
+		padding-bottom: 0.4em; /* ~10px */
 		border-right: 1px solid #fff;
+		font-size: 0.9em; /* 13px */
 			&:hover,
 			&:focus {color:#000;}
 		}
@@ -254,15 +259,21 @@ nav.navbar {
 }
 #news-events {
 	margin: 2em 0;
+	> .col-md-1 {
+		padding-left: 0;
+		margin-right: 1em;
+	}
 }
 #backtotop {
 	background: transparent url("/txdisabilityhistory/sites/default/files/back-to-top.png") no-repeat scroll center center;
 	height: 82px;
 	width: 82px;
+	color:;
 	@media (max-width: @screen-sm-max) {
 		background: transparent url("/txdisabilityhistory/sites/default/files/back-to-top_2.png") no-repeat scroll center center;
 		height: 2em;
 		width: 2em;
+		color:@brand-primary;
 	}
 }
 .region-content {
@@ -328,6 +339,9 @@ hr {
 	padding: 0 1em 0 0;
 }
 /* BASIC PAGE */
+.caret {
+	margin-left:1em;
+}
 .indent { 
 	margin-left:3%;
 } /* used on collection & person taxonomy term page */

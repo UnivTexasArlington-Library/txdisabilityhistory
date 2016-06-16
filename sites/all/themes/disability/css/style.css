@@ -6725,6 +6725,9 @@ button.close {
     display: none !important;
   }
 }
+.flexslider {
+  border-width: 0;
+}
 .topic-viewport {
   height: auto;
 }
@@ -6740,6 +6743,8 @@ button.close {
 }
 .topic-viewport .flex-caption {
   padding-left: 15px;
+  padding-bottom: 0.7em;
+  /* ~10px */
 }
 .topic-direction-nav {
   margin: 0;
@@ -6759,7 +6764,7 @@ button.close {
   opacity: 0;
   cursor: pointer;
   color: rgba(0, 0, 0, 0.8);
-  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+  text-shadow: none;
   background-color: rgba(106, 148, 144, 0.8);
   padding-top: 120px;
   /*.transition( 0.3s, ease-in-out );*/
@@ -6770,7 +6775,7 @@ button.close {
   display: inline-block;
   content: '\f001';
   color: rgba(250, 250, 250, 0.8);
-  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+  text-shadow: none;
 }
 .topic-direction-nav a.topic-next:before {
   content: '\f002';
@@ -6847,7 +6852,7 @@ button.close {
   opacity: 0;
   cursor: pointer;
   color: rgba(0, 0, 0, 0.8);
-  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+  text-shadow: none;
   background-color: rgba(106, 148, 144, 0.8);
   padding-top: 100px;
   max-height: 100%;
@@ -6859,7 +6864,7 @@ button.close {
   display: inline-block;
   content: '\f001';
   color: rgba(250, 250, 250, 0.8);
-  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+  text-shadow: none;
 }
 .related-direction-nav a.related-next:before {
   content: '\f002';
@@ -6906,13 +6911,17 @@ button.close {
 /* FONT */
 h1 {
   font-size: 2.6em;
+  color: #26635e;
   /*	@media (max-width: @screen-xs-max) {
 		font-size: 1.6em;
 	}*/
 }
+h1 a {
+  color: #26635e;
+}
 h2 {
-  font-size: 2.15em;
-  /* ~30px */
+  font-size: 1.9em;
+  /* ~26.6px */
 }
 h3 {
   color: #26635e;
@@ -6987,21 +6996,17 @@ h4 {
 }
 #uta_logo,
 #lib_logo {
-  height: 2.15em;
-  /* ~30px */
-  width: auto;
+  /*height: 2.15em;  ~30px 
+	width:auto; */
+  /*@media (max-width: @screen-xs-max) { 
+		height: 1.5em;
+	} */
 }
 #uta_logo:hover,
 #lib_logo:hover,
 #uta_logo:focus,
 #lib_logo:focus {
   background: rgba(23, 24, 24, 0.18) none repeat scroll 0% 0%;
-}
-@media (max-width: 767px) {
-  #uta_logo,
-  #lib_logo {
-    height: 1.5em;
-  }
 }
 #uta_logo {
   padding-right: 1em;
@@ -7115,7 +7120,7 @@ nav.navbar {
   padding-right: 0;
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
-  max-width: 6em;
+  max-width: 8em;
 }
 #edit-search-api-multi-fulltext-wrapper label {
   position: fixed;
@@ -7142,11 +7147,13 @@ nav.navbar {
 .secondary > li > a {
   background-color: #3b7c76;
   color: #fff;
-  padding-top: 0.71em;
+  padding-top: 0.4em;
   /* ~10px */
-  padding-bottom: 0.71em;
+  padding-bottom: 0.4em;
   /* ~10px */
   border-right: 1px solid #fff;
+  font-size: 0.9em;
+  /* 13px */
 }
 .secondary > li > a:hover,
 .secondary > li > a:focus {
@@ -7170,16 +7177,22 @@ nav.navbar {
 #news-events {
   margin: 2em 0;
 }
+#news-events > .col-md-1 {
+  padding-left: 0;
+  margin-right: 1em;
+}
 #backtotop {
   background: transparent url("/txdisabilityhistory/sites/default/files/back-to-top.png") no-repeat scroll center center;
   height: 82px;
   width: 82px;
+  color: ;
 }
 @media (max-width: 991px) {
   #backtotop {
     background: transparent url("/txdisabilityhistory/sites/default/files/back-to-top_2.png") no-repeat scroll center center;
     height: 2em;
     width: 2em;
+    color: #26635e;
   }
 }
 .region-content {
@@ -7253,6 +7266,9 @@ hr {
   padding: 0 1em 0 0;
 }
 /* BASIC PAGE */
+.caret {
+  margin-left: 1em;
+}
 .indent {
   margin-left: 3%;
 }
