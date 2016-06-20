@@ -50,10 +50,8 @@ h4 {
 .logo-wrapper-inside {
 	padding-bottom:1em;
 }
-.views-exposed-form {
-	@media (max-width: @screen-xs-max) { 
-		padding: 0;
-	}
+.views-exposed-form .veiws-exposed-widget {
+	padding-top:0;
 }
 
 #logo,
@@ -110,6 +108,7 @@ h4 {
 	padding-top: 1em;
 	background-color: transparent;
 	margin-left: -15px;
+	border-style:none;
 	@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
 		margin-left:0;
 	}
@@ -190,7 +189,6 @@ h4 {
 #block-menu-menu-browse-by {
 	display:inline-block;
 	float:right;
-	padding-top: 0.5em;
 	> ul > li > a {
 		border:1px solid @brand-primary;
 		border-radius: @border-radius-base;
@@ -208,12 +206,13 @@ h4 {
 	border-bottom-right-radius: 0;
 	border-top-right-radius: 0;
 	max-width: 8em;
+	padding-top:0;
 	label {
 		position: fixed;
 		right: -9999px;
 	}
 }
-.views-widget {
+.views-widget {	/* filter dropdown width */
 	max-width: 8em;
 }
 #edit-submit-search,
@@ -330,9 +329,7 @@ h4 {
 .views-label-name-1 {
 	font-weight: bold;
 }
-.vefl-region-right {
-	float: right;
-} /* for exposed filters on term pages */
+
 #views-bootstrap-grid-1 > div.row,
 .row-filter {
 	padding-top:2em; /* ~28px */
@@ -384,7 +381,6 @@ hr {
 /* FIELD COLLECTION CSS */
 .field-name-field-date-created,
 .field-name-field-approximate-date,
-.field-name-field-publisher,
 .field-name-field-publication-place,
 .field-name-field-publication-date {
 	display:inline-block;
