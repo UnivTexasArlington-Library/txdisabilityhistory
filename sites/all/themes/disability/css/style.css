@@ -6778,7 +6778,7 @@ button.close {
 }
 .topic-direction-nav a:before {
   font-family: "flexslider-icon";
-  font-size: 40px;
+  font-size: 10px;
   display: inline-block;
   content: '\f001';
   color: rgba(250, 250, 250, 0.8);
@@ -6867,7 +6867,7 @@ button.close {
 }
 .related-direction-nav a:before {
   font-family: "flexslider-icon";
-  font-size: 40px;
+  font-size: 10px;
   display: inline-block;
   content: '\f001';
   color: rgba(250, 250, 250, 0.8);
@@ -6950,13 +6950,14 @@ h4 {
 #block-crumbs-breadcrumb,
 .tabs--primary,
 .views-exposed-form,
-.related-topic-padding {
+.related-topic-padding,
+.bootstrap-threecol-stacked {
   padding-left: 3%;
   padding-right: 3%;
 }
 .logo-wrapper,
 .logo-wrapper-inside {
-  padding-bottom: 1.5em;
+  padding-bottom: 1em;
 }
 @media (max-width: 767px) {
   .views-exposed-form {
@@ -7003,14 +7004,6 @@ h4 {
 #logo {
   margin-top: 1em;
 }
-#uta_logo,
-#lib_logo {
-  /*height: 2.15em;  ~30px 
-	width:auto; */
-  /*@media (max-width: @screen-xs-max) { 
-		height: 1.5em;
-	} */
-}
 #uta_logo:hover,
 #lib_logo:hover,
 #uta_logo:focus,
@@ -7018,8 +7011,7 @@ h4 {
   background: rgba(23, 24, 24, 0.18) none repeat scroll 0% 0%;
 }
 #uta_logo {
-  padding-right: 1em;
-  border-right: 1px solid #FFF;
+  padding-right: 0.5em;
 }
 #navbar,
 #navbar-front {
@@ -7033,12 +7025,13 @@ h4 {
     margin-left: 0;
   }
 }
-#navbar-front {
+#navbar-front,
+.navbar {
   margin-bottom: 0;
 }
-nav.navbar {
-  margin-bottom: 0;
-}
+/*nav.navbar {
+	margin-bottom: 0;
+}*/
 .navbar-nav {
   margin: 0;
 }
@@ -7058,11 +7051,11 @@ nav.navbar {
   left: 0px;
   z-index: 20;
   background-color: rgba(17, 17, 17, 0.5);
-  /*height: 6em; */
+  height: 6em;
 }
 .navbar-wrapper {
   background-color: rgba(255, 255, 255, 0.8);
-  margin-top: 4em;
+  margin-top: 2.5em;
   position: absolute;
   right: 0;
   left: 0;
@@ -7135,6 +7128,9 @@ nav.navbar {
   position: fixed;
   right: -9999px;
 }
+.views-widget {
+  max-width: 8em;
+}
 #edit-submit-search,
 #edit-submit-keyword,
 #edit-submit-topic-with-filter,
@@ -7194,7 +7190,11 @@ nav.navbar {
   background: transparent url("/txdisabilityhistory/sites/default/files/back-to-top.png") no-repeat scroll center center;
   height: 82px;
   width: 82px;
-  color: ;
+  opacity: 1;
+}
+#backtotop:hover,
+#backtotop:focus {
+  opacity: 0.6;
 }
 @media (max-width: 991px) {
   #backtotop {
@@ -7202,6 +7202,11 @@ nav.navbar {
     height: 2em;
     width: 2em;
   }
+}
+#node-title {
+  margin-top: 0;
+  color: #26635e;
+  font-size: 18px;
 }
 .region-content {
   margin-bottom: 4em;
