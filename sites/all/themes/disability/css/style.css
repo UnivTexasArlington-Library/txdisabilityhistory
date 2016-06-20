@@ -7052,11 +7052,11 @@ h4 {
   left: 0px;
   z-index: 20;
   background-color: rgba(17, 17, 17, 0.5);
-  height: 6em;
+  height: 4em;
 }
 .navbar-wrapper {
   background-color: rgba(255, 255, 255, 0.8);
-  margin-top: 2.5em;
+  margin-top: 4em;
   position: absolute;
   right: 0;
   left: 0;
