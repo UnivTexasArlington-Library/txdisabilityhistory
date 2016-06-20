@@ -6951,7 +6951,10 @@ h4 {
 .tabs--primary,
 .views-exposed-form,
 .related-topic-padding,
-.bootstrap-threecol-stacked {
+.bootstrap-threecol-stacked,
+.bootstrap-twocol-stacked,
+.panel-1col {
+  /* collection page */
   padding-left: 3%;
   padding-right: 3%;
 }
@@ -7289,9 +7292,6 @@ hr {
   margin-left: 3%;
 }
 /* used on collection & person taxonomy term page */
-.pane-page-title {
-  padding-left: 3%;
-}
 #page-title h2 {
   padding-left: 15px;
 }
