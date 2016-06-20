@@ -6975,7 +6975,7 @@ h4 {
   text-transform: uppercase;
   letter-spacing: 1px;
   line-height: 1em;
-  margin-top: 0;
+  margin: 0;
 }
 #sitename h1:focus,
 #sitename h1:hover {
@@ -7015,7 +7015,7 @@ h4 {
 }
 #navbar,
 #navbar-front {
-  padding-top: 1em;
+  padding-top: 0.5em;
   background-color: transparent;
   margin-left: -15px;
   border-style: none;
