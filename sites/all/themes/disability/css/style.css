@@ -7160,14 +7160,14 @@ nav.navbar {
   margin-right: 1em;
 }
 #backtotop {
-  background: transparent url("/txdisabilityhistory/sites/default/files/back-to-top.png") no-repeat scroll center center;
-  height: 82px;
-  width: 82px;
+  background: transparent url("/txdisabilityhistory/sites/default/files/back-to-top_54.png") no-repeat scroll center center;
+  height: 54px;
+  width: 54px;
   opacity: 1;
 }
 #backtotop:hover,
 #backtotop:focus {
-  opacity: 0.6;
+  opacity: 0.8;
 }
 @media (max-width: 991px) {
   #backtotop {
