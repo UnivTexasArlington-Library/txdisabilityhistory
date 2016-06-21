@@ -6850,7 +6850,7 @@ button.close {
   color: #ffffff;
   text-shadow: none;
   background-color: rgba(106, 148, 144, 0.8);
-  padding-top: 100px;
+  padding-top: 70px;
   max-height: 100%;
   font-size: 10px;
   /*.transition( 0.3s, ease-in-out );*/
@@ -6877,26 +6877,14 @@ button.close {
 }
 .flexslider:hover .related-direction-nav .related-prev,
 .flexslider:focus .related-direction-nav .related-prev {
-  opacity: 0.8;
-  left: 0px;
-}
-.flexslider:hover .related-direction-nav .related-prev:hover,
-.flexslider:focus .related-direction-nav .related-prev:hover,
-.flexslider:hover .related-direction-nav .related-prev:focus,
-.flexslider:focus .related-direction-nav .related-prev:focus {
   opacity: 1;
+  left: 0px;
   padding-left: 5px;
 }
 .flexslider:hover .related-direction-nav .related-next,
 .flexslider:focus .related-direction-nav .related-next {
-  opacity: 0.8;
-  right: 0px;
-}
-.flexslider:hover .related-direction-nav .related-next:hover,
-.flexslider:focus .related-direction-nav .related-next:hover,
-.flexslider:hover .related-direction-nav .related-next:focus,
-.flexslider:focus .related-direction-nav .related-next:focus {
   opacity: 1;
+  right: 0px;
   padding-right: 5px;
 }
 .related-direction-nav .related-disabled {
@@ -6940,11 +6928,7 @@ h4 {
 #block-crumbs-breadcrumb,
 .tabs--primary,
 .related-topic-padding,
-#block-system-main,
-.bootstrap-threecol-stacked,
-.bootstrap-twocol-stacked,
-.panel-1col {
-  /* collection page */
+#block-system-main {
   padding-left: 3%;
   padding-right: 3%;
 }
