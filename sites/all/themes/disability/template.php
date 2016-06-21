@@ -3,13 +3,7 @@
  * @file
  * The primary PHP file for this theme.
  */
-//this adds custom js
-function library_bootstrap_subtheme_preprocess_html(&$variables) {
-  $options = array(
-    'group' => JS_THEME,
-  );
-  drupal_add_js(drupal_get_path('theme', 'disability'). '/js/scripts.js', $options);
-}
+
 
 /**
 * hook_form_FORM_ID_alter
