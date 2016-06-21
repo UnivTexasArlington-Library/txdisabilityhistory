@@ -87,7 +87,7 @@
       </div>
       <?php if (!empty($reset_button)): ?>
         <div class="views-exposed-widget views-reset-button">
-          <?php print $reset_button; ?>
+          <input type="reset" onClick="history.go(0)" value="Reset">
         </div>
       <?php endif; ?>
     </div>
