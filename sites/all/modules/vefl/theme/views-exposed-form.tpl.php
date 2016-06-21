@@ -87,8 +87,8 @@
       </div>
       <?php if (!empty($reset_button)): ?>
         <div class="views-exposed-widget views-reset-button">
-          <?php print $reset_button; ?>
-          <button onclick="window.location.reload();" type="button">Close</button>
+          <!-- <?php print $reset_button; ?> -->
+          <button class="btn btn-default form-submit" id="#edit-reset" onclick="window.location.reload(true);" type="button">Reset</button>
         </div>
       <?php endif; ?>
     </div>
