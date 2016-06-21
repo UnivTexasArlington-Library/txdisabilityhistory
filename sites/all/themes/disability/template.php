@@ -10,5 +10,6 @@
 function disability_form_search_block_form_alter(&$form, &$form_state, $form_id) {
     // Add ARIA role 'search' to the form
 	$form['search_block_form']['#attributes']['role'] = 'search';
-   
+	// Alternative (HTML5) placeholder attribute instead of using the javascript
+    $form['search_block_form']['#attributes']['placeholder'] = t('Search');   
 } 
