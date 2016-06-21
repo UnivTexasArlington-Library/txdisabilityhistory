@@ -6774,11 +6774,12 @@ button.close {
   text-shadow: none;
   background-color: rgba(106, 148, 144, 0.8);
   padding-top: 120px;
+  font-size: 10px;
   /*.transition( 0.3s, ease-in-out );*/
 }
 .topic-direction-nav a:before {
   font-family: "flexslider-icon";
-  font-size: 10px;
+  font-size: 40px;
   display: inline-block;
   content: '\f001';
   color: rgba(250, 250, 250, 0.8);
@@ -6863,13 +6864,14 @@ button.close {
   background-color: rgba(106, 148, 144, 0.8);
   padding-top: 100px;
   max-height: 100%;
+  font-size: 10px;
   /*.transition( 0.3s, ease-in-out );*/
 }
 .related-direction-nav a:before {
   font-family: "flexslider-icon";
-  font-size: 10px;
+  font-size: 40px;
   display: inline-block;
-  content: url(/txdisabilityhistory/sites/default/files/A_2.png);
+  content: '\f001';
   color: rgba(250, 250, 250, 0.8);
   text-shadow: none;
 }
