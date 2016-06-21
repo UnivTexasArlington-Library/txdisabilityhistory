@@ -89,6 +89,10 @@
         <div class="views-exposed-widget views-reset-button">
           <?php print $reset_button; ?>
         </div>
+        <?php else: ?>
+      <div class="views-exposed-widget views-reset-button">
+      <input type="reset" id="edit-reset" onclick="history.go(0)" name="op" value="Reset" class="form-submit">
+      </div>
       <?php endif; ?>
     </div>
   </div>
