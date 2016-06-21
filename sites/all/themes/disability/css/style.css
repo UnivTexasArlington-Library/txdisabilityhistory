@@ -6799,25 +6799,25 @@ button.close {
 .flexslider:focus .topic-direction-nav .topic-prev {
   opacity: 0.8;
   left: 0px;
+  padding-left: 5px;
 }
 .flexslider:hover .topic-direction-nav .topic-prev:hover,
 .flexslider:focus .topic-direction-nav .topic-prev:hover,
 .flexslider:hover .topic-direction-nav .topic-prev:focus,
 .flexslider:focus .topic-direction-nav .topic-prev:focus {
   opacity: 1;
-  padding-left: 5px;
 }
 .flexslider:hover .topic-direction-nav .topic-next,
 .flexslider:focus .topic-direction-nav .topic-next {
-  opacity: 0.8;
+  opacity: 1;
   right: 0px;
+  padding-right: 5px;
 }
 .flexslider:hover .topic-direction-nav .topic-next:hover,
 .flexslider:focus .topic-direction-nav .topic-next:hover,
 .flexslider:hover .topic-direction-nav .topic-next:focus,
 .flexslider:focus .topic-direction-nav .topic-next:focus {
   opacity: 1;
-  padding-right: 5px;
 }
 .topic-direction-nav .topic-disabled {
   opacity: 0!important;
