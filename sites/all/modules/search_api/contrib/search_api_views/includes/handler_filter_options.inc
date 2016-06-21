@@ -112,7 +112,7 @@ class SearchApiViewsHandlerFilterOptions extends SearchApiViewsHandlerFilter {
       '#type' => 'checkbox',
       '#title' => t('Limit list to selected items'),
       '#description' => t('If checked, the only items presented to the user will be the ones selected here.'),
-      '#default_value' => !empty($this->options['expose']['reduce']),
+      '#placeholder' => !empty($this->options['expose']['reduce']),
     );
   }
 
@@ -171,7 +171,7 @@ class SearchApiViewsHandlerFilterOptions extends SearchApiViewsHandlerFilter {
       '#options' => $options,
       '#multiple' => TRUE,
       '#size' => min(4, count($options)),
-      '#default_value' => is_array($this->value) ? $this->value : array(),
+      '#placeholder' => is_array($this->value) ? $this->value : array(),
     );
 
     // Hide the value box if the operator is 'empty' or 'not empty'.
