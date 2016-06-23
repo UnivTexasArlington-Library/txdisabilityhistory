@@ -6959,6 +6959,10 @@ h4 {
 #search-browse {
   float: right;
 }
+#sitename,
+#search-browse {
+  padding-top: 0.3em;
+}
 .navbar-toggle {
   margin-left: 1em;
   margin-right: 0;

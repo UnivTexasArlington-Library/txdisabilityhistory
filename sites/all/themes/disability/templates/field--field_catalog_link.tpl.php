@@ -2,7 +2,7 @@
   <div class="row">
   <?php if (!$label_hidden): ?>
     
-      <div class="field-label col-xs-12 col-sm-4"<?php print $title_attributes; ?>><strong>UT Arlington Catalog:</strong></div>
+      <div class="field-label col-xs-12 col-sm-4 col-md-3"<?php print $title_attributes; ?>><strong>UT Arlington Catalog:</strong></div>
     
   <?php endif; ?>
   
