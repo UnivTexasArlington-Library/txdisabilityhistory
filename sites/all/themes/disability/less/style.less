@@ -8,10 +8,14 @@
 /* FONT */
 h1 {
 	font-size:2.4em;
+
 	color:@brand-primary;
 	a {
 		&:hover, 
 	&:focus {color:@brand-primary;}
+	}
+		@media (max-width: @screen-sm-max) {
+		font-size:2.1em;
 	}
 /*	@media (max-width: @screen-xs-max) {
 		font-size: 1.6em;
@@ -391,6 +395,9 @@ footer{
 	color: #fff;
 	p {
 		font-size: 1em;
+		@media (max-width: @screen-sm-max) {
+			font-size: 0.8em;
+		}
 	}
 	a {
 		color:#fff;

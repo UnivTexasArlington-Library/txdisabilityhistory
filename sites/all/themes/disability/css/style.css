@@ -6911,6 +6911,11 @@ h1 a:hover,
 h1 a:focus {
   color: #26635e;
 }
+@media (max-width: 991px) {
+  h1 {
+    font-size: 2.1em;
+  }
+}
 h2 {
   font-size: 1.9em;
   /* ~26.6px */
@@ -7310,6 +7315,11 @@ footer {
 }
 footer p {
   font-size: 1em;
+}
+@media (max-width: 991px) {
+  footer p {
+    font-size: 0.8em;
+  }
 }
 footer a {
   color: #fff;
