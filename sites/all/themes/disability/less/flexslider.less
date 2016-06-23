@@ -43,7 +43,7 @@
 		text-decoration: none;
 	    display: block;
 	    width: 40px;
-	    height: 280px;
+	    height: 279px;
 	    position: absolute;
 	    top: 0;
 	    z-index: 10;
@@ -60,15 +60,18 @@
 
 	    &:before  {
 		    font-family: "flexslider-icon";
-		    font-size: 40px;
+		    font-size: 20px;
 		    display: inline-block;
 		    content: @flex-direction-nav-icon-prev;
 		    color: @flex-direction-nav-icon-color;
 		    text-shadow: none;
+		    padding-left:4.2px;
 	    }
 
 	    &.topic-next:before {
 	      content: @flex-direction-nav-icon-next;
+	      padding-right:4.2px;
+	      padding-left:0;
 	    }
 	}
 
@@ -160,7 +163,7 @@
 		    content: @flex-direction-nav-icon-prev;
 		    color: @flex-direction-nav-icon-color;
 		    text-shadow: none;
-		    padding-left:7px;
+		    padding-left:4.2px;
 	    }
 
 	    &.related-next:before {
@@ -172,7 +175,7 @@
 
 	.related-prev {
 	    left: -50px;
-	    padding-left: 3px;
+	    padding-left: 8px;
 	}
 
 	.related-next {

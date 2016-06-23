@@ -6763,7 +6763,7 @@ button.close {
   text-decoration: none;
   display: block;
   width: 40px;
-  height: 280px;
+  height: 279px;
   position: absolute;
   top: 0;
   z-index: 10;
@@ -6779,14 +6779,17 @@ button.close {
 }
 .topic-direction-nav a:before {
   font-family: "flexslider-icon";
-  font-size: 40px;
+  font-size: 20px;
   display: inline-block;
   content: '\f001';
   color: rgba(250, 250, 250, 0.8);
   text-shadow: none;
+  padding-left: 4.2px;
 }
 .topic-direction-nav a.topic-next:before {
   content: '\f002';
+  padding-right: 4.2px;
+  padding-left: 0;
 }
 .topic-direction-nav .topic-prev {
   left: -50px;
@@ -6862,7 +6865,7 @@ button.close {
   content: '\f001';
   color: rgba(250, 250, 250, 0.8);
   text-shadow: none;
-  padding-left: 7px;
+  padding-left: 4.2px;
 }
 .related-direction-nav a.related-next:before {
   content: '\f002';
@@ -6871,7 +6874,7 @@ button.close {
 }
 .related-direction-nav .related-prev {
   left: -50px;
-  padding-left: 3px;
+  padding-left: 8px;
 }
 .related-direction-nav .related-next {
   right: -50px;
