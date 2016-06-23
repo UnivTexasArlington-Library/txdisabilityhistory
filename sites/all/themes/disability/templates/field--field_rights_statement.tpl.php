@@ -1,6 +1,6 @@
 <div class="<?php print $classes; ?>"<?php print $attributes; ?>>
   <?php if (!$label_hidden): ?>
-    <div class="field-label col-xs-12 col-sm-4"<?php print $title_attributes; ?>>Rights:&nbsp;</div>
+    <div class="field-label col-xs-12 col-sm-4 col-md-3"<?php print $title_attributes; ?>>Rights:&nbsp;</div>
   <?php endif; ?> 
   <div class="field-items col-xs-12 col-sm-7 col-md-8"<?php print $content_attributes; ?>>
     <?php foreach ($items as $delta => $item): ?>

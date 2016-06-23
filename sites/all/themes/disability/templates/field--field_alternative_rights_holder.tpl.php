@@ -2,7 +2,7 @@
   <div class="row row-field">
   <?php if (!$label_hidden): ?>
 
-    	<div class="field-label col-xs-12 col-sm-4"<?php print $title_attributes; ?>><strong>Rights Holder:</strong></div>
+    	<div class="field-label col-xs-12 col-sm-4 col-md-3"<?php print $title_attributes; ?>><strong>Rights Holder:</strong></div>
 
   <?php endif; ?>
   
