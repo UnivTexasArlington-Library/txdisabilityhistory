@@ -147,7 +147,7 @@
 	    color: @flex-direction-nav-color;
 	    text-shadow: none;
 	    background-color: @flex-direction-nav-background;
-	    padding-top:70px;
+	    padding-top:85px;
 	    max-height: 100%;
 	    font-size:@flex-direction-nav-font-size;
 
@@ -155,27 +155,30 @@
 
 	    &:before  {
 		    font-family: "flexslider-icon";
-		    font-size: 40px;
+		    font-size: 20px;
 		    display: inline-block;
 		    content: @flex-direction-nav-icon-prev;
 		    color: @flex-direction-nav-icon-color;
 		    text-shadow: none;
+		    padding-left:7px;
 	    }
 
 	    &.related-next:before {
 	      content: @flex-direction-nav-icon-next;
+	      padding-left:0;
+	      padding-right:4.2px;
 	    }
 	}
 
 	.related-prev {
 	    left: -50px;
-	    padding-left: 5px;
+	    padding-left: 3px;
 	}
 
 	.related-next {
 		right: -50px;
 		text-align: right;
-		padding-right: 5px;
+		padding-right: 8px;
 	}
 	
 	.flexslider:hover &,
