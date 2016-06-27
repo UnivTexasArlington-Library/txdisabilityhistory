@@ -7001,6 +7001,11 @@ h4 {
 #search-browse {
   padding-top: 0.3em;
 }
+@media (max-width: 767px) {
+  #search-browse {
+    font-size: 0.85em;
+  }
+}
 .navbar-toggle {
   margin-left: 1em;
   margin-right: 0;
@@ -7059,10 +7064,21 @@ nav.navbar {
 .region-header {
   margin-left: -15px;
 }
+@media (max-width: 767px) {
+  .region-navigation {
+    padding-top: 5px;
+  }
+}
 .region-navigation .form-control {
   border-color: #26635e;
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
+}
+@media (max-width: 767px) {
+  .region-navigation .form-control {
+    height: 2.5em;
+    font-size: 1em;
+  }
 }
 /* FRONT PAGE */
 .logo-wrapper {
@@ -7162,6 +7178,11 @@ nav.navbar {
 #edit-submit-search {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
+}
+@media (max-width: 767px) {
+  #edit-submit-search {
+    font-size: 0.95em;
+  }
 }
 .secondary > li.first > a {
   border-bottom-left-radius: 4px;

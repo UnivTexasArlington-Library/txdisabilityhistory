@@ -96,6 +96,11 @@ h4 {
 #search-browse {
 	padding-top:0.3em;
 }
+#search-browse {
+	@media (max-width: @screen-xs-max) {
+		font-size:0.85em;
+	}
+}
 .navbar-toggle {
 	margin-left:1em;
 	margin-right: 0;
@@ -149,10 +154,17 @@ nav.navbar {	/*for #green-menu to hang from browser top */
 	margin-left: -15px;
 }
 .region-navigation {
+	@media (max-width: @screen-xs-max) {
+		padding-top:5px;
+	}
 	.form-control {
 		border-color: @brand-primary;
 		border-bottom-right-radius: 0;
 		border-top-right-radius: 0;
+		@media (max-width: @screen-xs-max) {
+			height:2.5em;
+			font-size: 1em;
+		}
 	}
 }
 
@@ -220,6 +232,7 @@ nav.navbar {	/*for #green-menu to hang from browser top */
 		color: @font-teal;
 	}
 }
+
 #block-views-exp-search-page {
 	display:inline-block;
 } 
@@ -246,6 +259,9 @@ nav.navbar {	/*for #green-menu to hang from browser top */
 #edit-submit-search {
 	border-bottom-left-radius: 0;
 	border-top-left-radius: 0;
+	@media (max-width: @screen-xs-max) {
+		font-size:0.95em;
+	}
 }
 .secondary {
 	> li.first > a {
