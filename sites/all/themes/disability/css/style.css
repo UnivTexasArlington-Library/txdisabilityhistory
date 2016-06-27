@@ -6900,30 +6900,57 @@ button.close {
   z-index: -1;
 }
 /* FONT */
+@media (max-width: 767px) {
+  p {
+    font-size: 0.85em;
+  }
+}
 h1 {
-  font-size: 2.4em;
+  font-size: 2.2em;
   color: #26635e;
-  /*	@media (max-width: @screen-xs-max) {
-		font-size: 1.6em;
-	}*/
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  h1 {
+    font-size: 1.8em;
+  }
+}
+@media (max-width: 767px) {
+  h1 {
+    font-size: 1.4em;
+  }
 }
 h1 a:hover,
 h1 a:focus {
   color: #26635e;
 }
-@media (max-width: 991px) {
-  h1 {
-    font-size: 2.1em;
+h2 {
+  font-size: 1.8em;
+  /* ~26.6px */
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  h2 {
+    font-size: 1.6em;
   }
 }
-h2 {
-  font-size: 1.9em;
-  /* ~26.6px */
+@media (max-width: 767px) {
+  h2 {
+    font-size: 1.4em;
+  }
 }
 h3 {
   color: #26635e;
-  font-size: 1.7em;
+  font-size: 1.6em;
   /* ~24px */
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  h3 {
+    font-size: 1.4em;
+  }
+}
+@media (max-width: 767px) {
+  h3 {
+    font-size: 1.2em;
+  }
 }
 h3 a {
   color: #26635e;
@@ -6992,6 +7019,13 @@ h4 {
 }
 #logo {
   margin-top: 1em;
+}
+@media (max-width: 767px) {
+  #uta_logo,
+  #lib_logo {
+    height: 1.1em;
+    width: auto;
+  }
 }
 #uta_logo:hover,
 #lib_logo:hover,
@@ -7301,6 +7335,11 @@ hr {
 .panels-flexible-collections_layout h3 {
   margin-top: 0;
 }
+@media (max-width: 767px) {
+  .panels-flexible-collections_layout img {
+    padding-left: 0.5em;
+  }
+}
 /* FIELD COLLECTION CSS */
 .field-name-field-date-created,
 .field-name-field-approximate-date,
@@ -7316,9 +7355,14 @@ footer {
 footer p {
   font-size: 1em;
 }
-@media (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
   footer p {
     font-size: 0.8em;
+  }
+}
+@media (max-width: 767px) {
+  footer p {
+    font-size: 0.6em;
   }
 }
 footer a {
