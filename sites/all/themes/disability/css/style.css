@@ -7196,6 +7196,7 @@ nav.navbar {
 #edit-submit-search {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
+  font-size: 1.05em;
 }
 @media (max-width: 767px) {
   #edit-submit-search {
