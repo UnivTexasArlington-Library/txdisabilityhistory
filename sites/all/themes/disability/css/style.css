@@ -7007,9 +7007,21 @@ h4 {
 #search-browse {
   float: right;
 }
-#sitename,
-#search-browse {
+#sitename {
   padding-top: 0.5em;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #sitename {
+    padding-top: 0.7em;
+  }
+}
+@media (max-width: 767px) {
+  #sitename {
+    padding-top: 0.85em;
+  }
+}
+#search-browse {
+  padding-top: 0.3em;
 }
 @media (max-width: 991px) {
   #search-browse {
