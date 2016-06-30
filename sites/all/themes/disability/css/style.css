@@ -6763,7 +6763,7 @@ button.close {
   text-decoration: none;
   display: block;
   width: 40px;
-  height: 279px;
+  height: 280px;
   position: absolute;
   top: 0;
   z-index: 10;
@@ -7251,6 +7251,21 @@ nav.navbar {
 #news-events h4 {
   font-weight: initial;
 }
+@media (min-width: 992px) and (max-width: 1100px) {
+  #news-events h4 {
+    font-size: 1.4em;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #news-events h4 {
+    font-size: 1.6em;
+  }
+}
+@media (max-width: 767px) {
+  #news-events h4 {
+    font-size: 1.4em;
+  }
+}
 #backtotop {
   background: transparent url("/txdisabilityhistory/sites/default/files/back-to-top_54.png") no-repeat scroll center center;
   height: 54px;
@@ -7314,6 +7329,11 @@ nav.navbar {
 }
 .media .media-body p {
   font-size: 1em;
+}
+@media (max-width: 767px) {
+  .media .media-body p {
+    font-size: 0.85em;
+  }
 }
 .views-label-field-biography,
 .views-label-field-birth-date,
