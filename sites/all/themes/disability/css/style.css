@@ -7345,6 +7345,11 @@ hr {
 .caption {
   padding: 0 1em 0 0;
 }
+@media (max-width: 767px) {
+  .caption {
+    padding-top: 1em;
+  }
+}
 /* BASIC PAGE */
 .caret {
   margin-left: 1em;
@@ -7383,6 +7388,7 @@ hr {
 @media (max-width: 767px) {
   .panels-flexible-collections_layout img {
     padding-left: 0.5em;
+    padding-bottom: 10px;
   }
 }
 /* FIELD COLLECTION CSS */

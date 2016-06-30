@@ -406,6 +406,9 @@ hr {
 }
 .caption {
 	padding: 0 1em 0 0;
+	@media (max-width: @screen-xs-max) {
+		padding-top: 1em;
+	}
 }
 /* BASIC PAGE */
 .caret {
@@ -439,6 +442,7 @@ hr {
 	img {
 		@media (max-width: @screen-xs-max) {
 			padding-left:0.5em;
+			padding-bottom: 10px;
 		}
 	}
 }
