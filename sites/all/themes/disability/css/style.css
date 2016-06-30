@@ -7357,22 +7357,18 @@ hr {
 #page-title h2 {
   padding-left: 15px;
 }
-#contact-site-form,
-#page-body,
-#about-collection {
-  margin-left: 12%;
-  margin-right: 29%;
-}
-#contact-site-form p,
-#page-body p,
-#about-collection p,
-#contact-site-form li,
-#page-body li,
-#about-collection li {
-  font-size: 1.4em;
-}
 @media (min-width: 1200px) {
+  #contact-site-form,
+  #page-body,
+  #about-collection {
+    margin-left: 12%;
+    margin-right: 29%;
+  }
+  #contact-site-form p,
+  #page-body p,
   #about-collection p,
+  #contact-site-form li,
+  #page-body li,
   #about-collection li {
     font-size: 1.4em;
   }
