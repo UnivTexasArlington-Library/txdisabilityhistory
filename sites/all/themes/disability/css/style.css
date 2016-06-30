@@ -6956,7 +6956,17 @@ h3 a {
   color: #26635e;
 }
 h4 {
-  font-weight: bold;
+  font-size: 1.8em;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  h4 {
+    font-size: 1.6em;
+  }
+}
+@media (max-width: 767px) {
+  h4 {
+    font-size: 1.4em;
+  }
 }
 /* PAGE TOP */
 .logo-wrapper,
@@ -7253,19 +7263,6 @@ nav.navbar {
     font-size: 1.4em;
   }
 }
-#news-events h4 {
-  font-weight: initial;
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  #news-events h4 {
-    font-size: 1.6em;
-  }
-}
-@media (max-width: 767px) {
-  #news-events h4 {
-    font-size: 1.4em;
-  }
-}
 #backtotop {
   background: transparent url("/txdisabilityhistory/sites/default/files/back-to-top_54.png") no-repeat scroll center center;
   height: 54px;
@@ -7322,6 +7319,7 @@ nav.navbar {
 }
 .media .media-heading {
   margin-top: 10px;
+  font-weight: inherit;
 }
 .media .media-body {
   padding: 0.71em 2.15em;
