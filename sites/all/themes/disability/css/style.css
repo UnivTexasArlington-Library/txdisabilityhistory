@@ -7426,6 +7426,11 @@ hr {
   display: inline-block;
 }
 /* KEYWORD */
+ul.views-summary {
+  padding-left: 0;
+  -moz-padding-start: 0;
+  -webkit-padding-start: 0;
+}
 ul.views-summary li {
   display: inline;
   padding-right: 0.2em;
