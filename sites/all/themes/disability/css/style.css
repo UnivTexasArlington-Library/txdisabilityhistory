@@ -7438,6 +7438,9 @@ hr {
 .field-name-field-publication-date {
   display: inline-block;
 }
+.field-label-above {
+  clear: left;
+}
 /* KEYWORD */
 ul.views-summary {
   padding-left: 0;
