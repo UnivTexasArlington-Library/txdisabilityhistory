@@ -6881,14 +6881,12 @@ button.close {
   text-align: right;
   padding-right: 8px;
 }
-.flexslider:hover .related-direction-nav .related-prev,
-.flexslider:focus .related-direction-nav .related-prev {
+.flexslider .related-direction-nav .related-prev {
   opacity: 1;
   left: 0px;
   padding-left: 5px;
 }
-.flexslider:hover .related-direction-nav .related-next,
-.flexslider:focus .related-direction-nav .related-next {
+.flexslider .related-direction-nav .related-next {
   opacity: 1;
   right: 0px;
   padding-right: 5px;
@@ -7401,6 +7399,21 @@ hr {
   #page-body li,
   #about-collection li {
     font-size: 1.4em;
+  }
+}
+.view-id-personnel > .view-content > h3 {
+  font-size: 1.6em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .view-id-personnel > .view-content > h3 {
+    font-size: 1.4em;
+  }
+}
+@media (max-width: 767px) {
+  .view-id-personnel > .view-content > h3 {
+    font-size: 1.2em;
   }
 }
 /* COLLECTION PAGE */
