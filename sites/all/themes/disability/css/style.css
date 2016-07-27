@@ -6798,14 +6798,14 @@ button.close {
   /* right: -50px; */
   text-align: right;
 }
-.flexslider:hover .topic-direction-nav .topic-prev,
-.flexslider:focus .topic-direction-nav .topic-prev {
+.flexslider .topic-direction-nav .topic-prev,
+.flexslider .topic-direction-nav .topic-prev {
   opacity: 1;
   left: 0px;
   padding-left: 5px;
 }
-.flexslider:hover .topic-direction-nav .topic-next,
-.flexslider:focus .topic-direction-nav .topic-next {
+.flexslider .topic-direction-nav .topic-next,
+.flexslider .topic-direction-nav .topic-next {
   opacity: 1;
   right: 0px;
   padding-right: 5px;
@@ -7151,7 +7151,7 @@ nav.navbar {
   position: absolute;
   top: 14em;
   /* ~250px */
-  z-index: 150;
+  z-index: 10;
   right: 0;
   padding: 1.5em;
   /* 21px */

@@ -68,7 +68,7 @@
       <?php /*this code pulls a random numbered image (1.jpg, 2.jpg, etc.) from the "home" folder */ ?>
       <img src="sites/default/files/styles/homepage/<?php $random = rand(1,5); echo $random; ?>.jpg" alt="image from the archive" id="hero" />
     </p>
-    <p id="herocaption">Showcasing Texas’s central role in the disability rights movement, especially adapted sports and access to higher education.<br />
+    <p id="herocaption">Showcasing Texas’ central role in the disability rights movement, especially adapted sports and access to higher education.<br />
       <a href="about">More about this collection</a>
     </p>
   </section>
