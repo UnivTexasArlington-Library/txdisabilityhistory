@@ -437,7 +437,8 @@ hr {
 }
 #contact-site-form, 
 #page-body,
-#about-collection {
+#about-collection, 
+#biography {
 	@media (min-width: @screen-lg-min) { 
 		margin-left: 12%;
 		margin-right: 29%;
@@ -449,11 +450,12 @@ hr {
 }
 #summary { /* collection & biography summaries*/
 	padding-bottom: 2em;
-	@media (min-width: @screen-lg-min) {
-		padding-left:0;
-	}
+	padding-left:0;
 }
-#clear { /* for exposed forms following collection & biography summaries */
+#clear, /* for exposed forms following collection & biography summaries */
+#views-exposed-form-keyword-panel-pane-1,
+#views-exposed-form-keyword-panel-pane-2,
+#views-exposed-form-keyword-panel-pane-3 { 
 	clear:both;
 }
 .view-id-personnel > .view-content > h3 {
