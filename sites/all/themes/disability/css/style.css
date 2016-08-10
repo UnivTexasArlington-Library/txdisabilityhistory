@@ -7399,9 +7399,22 @@ hr {
   #contact-site-form li,
   #page-body li,
   #about-collection li {
-    font-size: 1.4em;
+    /*font-size: 1.4em; */
     margin-right: 29%;
   }
+}
+#summary {
+  /* collection & biography summaries*/
+  padding-bottom: 2em;
+}
+@media (min-width: 1200px) {
+  #summary {
+    padding-left: 0;
+  }
+}
+#clear {
+  /* for exposed forms following collection & biography summaries */
+  clear: both;
 }
 .view-id-personnel > .view-content > h3 {
   font-size: 1.6em;
