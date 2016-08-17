@@ -6985,7 +6985,7 @@ h4 {
   padding-top: 0;
 }
 #logo,
-#green-menu,
+#about-menu,
 #sitename,
 #search-browse {
   display: inline-block;
@@ -7001,7 +7001,7 @@ h4 {
 #sitename h1:hover {
   color: inherit;
 }
-#green-menu,
+#about-menu,
 #search-browse {
   float: right;
 }
@@ -7090,7 +7090,7 @@ h4 {
   margin: 0;
 }
 nav.navbar {
-  /*for #green-menu to hang from browser top */
+  /*for #about-menu to hang from browser top */
   padding-top: 0;
 }
 .region-header {
