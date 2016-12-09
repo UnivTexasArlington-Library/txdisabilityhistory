@@ -14,6 +14,7 @@ function disability_form_views_exposed_form_alter(&$form, &$form_state, $form_id
 	$form['search_api_multi_fulltext']['#attributes']['role'] = 'search';
 	// Alternative (HTML5) placeholder attribute instead of using the javascript
     $form['search_api_multi_fulltext']['#attributes']['placeholder'] = t('search');
+    $form['search_block_form']['#title_display'] = 'invisible'; // Toggle label visibilty
 
   }
 }
