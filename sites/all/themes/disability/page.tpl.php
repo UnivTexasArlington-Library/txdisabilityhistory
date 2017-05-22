@@ -9,7 +9,7 @@
     </div> <!-- end #logo -->
     
     <div id="about-menu" class="hidden-xs">
-      <nav class="navbar" role="navigation" aria-labelledby="about menu">
+      <nav class="navbar" role="navigation" aria-labelledby="about-menu">
         <?php if (!empty($secondary_nav)): ?>
         <?php print render($secondary_nav); ?>
         <?php endif; ?>
@@ -39,7 +39,7 @@
         <!-- nav-desktop -->
         <?php if (!empty($primary_nav) || !empty($page['navigation'])): ?>
           <div class="navbar-collapse collapse">
-            <nav id="main-menu" role="navigation" aria-labelledby="main menu">
+            <nav id="main-menu" role="navigation" aria-labelledby="main-menu">
               <?php if (!empty($secondary_nav)): ?>
               <div class="visible-xs">
                 <?php print render($secondary_nav); ?>
