@@ -9,10 +9,10 @@
 
 <?php print $image ?>
 
-<?php if (!empty($title) || !empty($description)): ?>
+<?php if (!empty($title) || !empty($content)): ?>
   <div class="caption">
     <?php if (!empty($title)): ?>
-      <p><?php print $title ?></p>
+      <h3><?php print $title ?></h3>
     <?php endif ?>
 
     <?php foreach ($content as $field): ?>
