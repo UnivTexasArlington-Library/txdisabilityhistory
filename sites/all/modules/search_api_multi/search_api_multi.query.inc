@@ -767,8 +767,13 @@ class SearchApiMultiQuery implements SearchApiMultiQueryInterface {
 
     // Prepare and execute the search on every index available.
     foreach ($queries as $index_id => $query) {
-      $query->keys($this->orig_keys);
-      $query->fields($this->index_fields[$index_id]);
+      if (isset($this->orig_keys)) {
+        if (empty($this->index_fields[$index_id])) {
+          continue;
+        }
+        $query->keys($this->orig_keys);
+        $query->fields($this->index_fields[$index_id]);
+      }
       foreach ($this->sort as $field => $order) {
         if (strpos($field, ':') !== FALSE) {
           list($field_index_id, $field) = explode(':', $field, 2);
