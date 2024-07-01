@@ -7521,7 +7521,7 @@ footer a {
 
 /* FIX FOR ALTERNATIVE RIGHTS FIELD ALIGNMENT */
 @media (max-width: 768px) {
-  .field-name-field-alternative-rights-stateme > .row > .field-items {
+  .field-name-field-alternative-rights-stateme > .row > .field-items, .field-name-field-alternative-rights-stateme > .row > .field-name-field-alternative-rights-holder {
     margin-left: 15px;
   }
 }
