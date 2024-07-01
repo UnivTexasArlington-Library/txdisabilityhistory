@@ -7518,3 +7518,10 @@ footer a {
 .panels-flexible-region-collections_layout-image-inside img {
   padding-top: 3px;
 }
+
+/* FIX FOR ALTERNATIVE RIGHTS FIELD ALIGNMENT */
+@media (max-width: 768px) {
+  .field-name-field-alternative-rights-stateme > .row > .field-label {
+    margin-right: 0;
+  }
+}
